@@ -1,182 +1,1496 @@
-Trait number	Trait name	Trait abbreviations	Trait synonyms	Trait description	Trait level	Trait status	Trait lists	Trait ower	Method name	Method description	Method class	Method formula	Scale name	Scale class	Scale decimal places	Scale lower limit	Scale upper limit	Scale categories
-BTO:0000673	>75% blue/ripe fruit	BRF		Timing of >75% blue/ripe fruit	Plant	active	Fruit development; Fruit mature rate		Day of year (Julian day) when plant reached >75% blue/ripe fruit (75Blue) stage (>50%)	Day of year (Julian day) when plant reached >75% blue/ripe fruit (75Blue) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		date	numerical				
-BTO:0000688	5% ripe	5RP	First ripe	Number of days to 5% ripe	Plant	active	Fruit development; Fruit mature rate		Days to 5% ripe	Number of days from January 1 to 5% ripe	Counting		days	numerical				
-BTO:0000647	50% bloom	50B		Number of days to 50% bloom	Plant	active	Bloom; Plant development		Days to 50% bloom	Number of days from January 1st to 50% bloom	Counting		days	numerical				
-BTO:0000821	50% re-bloom	50RB	50% re-bloom	Number of days to 50% re-bloom	Plant	active	Bloom; Plant development		Days to 50% re-bloom	Number of days from January 1st to 50% re-bloom	Counting		days	numerical				
-BTO:0000676	50% ripe	50RP	50% blue	Number of days to 50% ripe	Plant	active	Fruit development; Fruit mature rate		Days to 50% ripe	Number of days from January 1 to 50% ripe	Counting		days	numerical				
-BTO:0000677	95% ripe	95RP	Full ripe, FullR	Number of days to 95% ripe	Plant	active	Fruit development; Fruit mature rate		Days to 95% ripe	Number of days from January 1 to 95% ripe	Counting		days	numerical				
-BTO:0000650	Algal stem blotch 	ASTB		Susceptible to algal stem blotch 	Plant	active	Disease resistance; Stem		Visual observation of disease presence	Visual observation of disease presence of Algal stem blotch	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000681	Alternaria fruit rot 	ALFR		Susceptible to alternaria fruit rot 	Plant	active	Disease resistance; fruit		Visual observation of disease presence	Visual observation of disease presence of Alternaria fruit rot	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000667	Anthracnose fruit rot 	ANFR		Susceptible to anthracnose fruit rot 	Plant	active	Disease resistance; fruit		Visual observation of disease presence	Visual observation of disease presence of Anthracnose fruit rot	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000689	Aphids 	APH		Susceptible to aphids 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Aphids	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000646	Average fruit diameter, mm	FRDIA2		Average diameter of 30 fruits in mm	Plant	active	PostHarvest; fruit Quality	Ebrahiem Babiker	Average diameter of fruits	Average diameter (mm) of fruit calculated from 30 fruit samples using the Agrosta penetrometer with turntable according to manufacturer's instructions.	Computation		mm	numerical				
-BTO:0000674	Average fruit firmness, measured	FRFRMMEAN		Firmness of fruit with Agrosta penetrometer	Plant	active	PostHarvest; fruit Quality	Ebrahiem Babiker	Measurement of fruit firmness with Agrosta penetrometer	Average fruit firmness measured from 30 berries with fixed pressure to measure displacement on an Agrosta penetrometer (with turntable) provided as value of force in g/mm.	Computation		g/mm	numerical				
-BTO:0000683	Average Pentration time	PENTMEAN		Time elapsed for pentration	Plant	active	PostHarvest; fruit Quality	Ebrahiem Babiker	Average time needed to penetrate fruits	Average time needed under fixed pressure to pentrate (displacement probe) 30 berries on an Agrosta penetrometer (with turntable) provided as duration in milliseconds	Computation		ms	numerical				
-BTO:0000679	Bacterial blight/canker 	BBC		Susceptible to bacterial blight/canker 	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Bacterial flight/canker	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000644	Bacterial leaf scorch 	BLS		Susceptible to bacterial leaf scorch 	Plant	active	Disease resistance; leaf		Visual observation of disease presence	Visual observation of disease presence of Bacterial leaf scorch	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000653	Bloom color	BC		Color of flowers	Plant	active	Flower appearance		Observed color of blooms	Color of flowers recorded using available list	Measurement		color	nominal				0=cream (C);1=cream/pink (CP);2=green (G);3=green/red (GR);4=pink (P);5=pink/purple(PPU);6=purple(PU);7=red (R);8=white (W);9=white/pink (WP);
-BTO:0000654	Bloom on fruit	BLOOM		Amount of bloom (waxy, silvery-white substance on the surface) on fruit 	Plant	active	Bloom; Plant development		Amount of bloom rated on a scale of 1 to 9	Visual survey of the amount of bloom on fruit. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Estimation		amount of bloom	ordinal		1	9	1=black fruit;2=light black fruit;3=dark purple fruit;4=light purple fruit;5=dark red fruit;6=light red fruit;7=dark blue fruits;8=light blue fruits;9=bright, light blue fruit
-BTO:0000684	Bloom on fruit durability	BLODUR		The durability of bloom (waxy, silvery-white substance on the surface) on fruit 	Plant	active	Fruit appearance; Bloom		Durability of bloom rated on a scale of 1 to 9	Visual survey of the durability of bloom on fruit after fruit is touched	Estimation		bloom duration	ordinal		1	9	1=rubs off easily;2=90% rubs off;3=75% rubs off;4=60% rubs off;5=45% rubs off;6=30% rubs off;7=15% rubs off;8=5% rubs off;9=stays on
-BTO:0000658	Blueberry maggot 	BLMAG		Susceptible to blueberry maggot 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Blueberry maggot	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000665	Blueberry scorch virus 	BLSV		Susceptible to blueberry scorch virus 	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Blueberry scorch virus	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000657	Blueberry Shock Virus Sensitivity	BLSHVE		ELISA test results for Blueberry Shock Virus	Plant	active	Disease resistance		Blueberry Shock Virus ELISA	Results of Blueberry shock virus tested by ELISA assay. Used in conjunction to derive Blueberry Shock Virus Years to Develop, BLSHV as Referenced in Finn, C.E., Mackey, T.A., Postman, J.D. and Martin, R.R. (2017). Identifying blueberry germplasm that is slow to get Blueberry shock virus in the Pacific Northwest United States. Acta Hortic. 1180, 423-430.  DOI: 10.17660/ActaHortic.2017.1180.59	Measurement		blueberry shock virus	nominal				0=Not tested, dead;1=Negative;2=Ambiguous;3=Positive;
-BTO:0000682	Blueberry Shock Virus Symptoms	BLSHVP	BlShV	Presence of BSV symptoms in the field pre-harvest	Plant	active	Disease resistance		Blueberry Shock Virus presence	Visual evaluation of plants for BLSHV presence in the field prior to harvest	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000678	Blueberry Shock Virus Years to Develop	BLSHV		Number of years before the plant tests positive for Blueberry Shock Virus	Plant	active	Disease resistance		Blueberry Shock Virus timing	Number of years since planting that the plant tests positive for Blueberry shock virus by ELISA assay. Lower values means that the plant succumbs to the virus faster; higher values means that the plant does not test positive for the virus for a longer time. Ultimately categorized into <3 years - rapid to test positive, 3-5 years intermediate to test positive, 5-10 slow to test positive, >10 very slow to test positive. Referenced in Finn, C.E., Mackey, T.A., Postman, J.D. and Martin, R.R. (2017). Identifying blueberry germplasm that is slow to get Blueberry shock virus in the Pacific Northwest United States. Acta Hortic. 1180, 423-430.  DOI: 10.17660/ActaHortic.2017.1180.59	Measurement		years	numerical		1		
-BTO:0000685	Blueberry stunt 	BLST		Susceptible to blueberry stunt 	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Blueberry stunt 	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000651	Brown marmorated stinkbug 	BMS		Susceptible to brown marmorated stinkbug 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Brown marmorated stinkbug	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000652	Bud mite 	BDMT		Susceptible to bud mite 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Bud mite	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000656	Bud set, count	BS2		Number of buds per cane	Plant	active	Plant growth		Measurement of bud set (floral buds [clusters] / cane)	Count number floral buds (clusters) on 3 random canes	Measurement		buds/cane	numerical				
-BTO:0000669	Bud set, scale	BS	Budset	Number of buds per cane	Plant	active	Plant growth		Rating of bud set on a scale of 1 to 3	Visual count of the number of buds per cane	Estimation		buds/cane	ordinal		1	3	1=1 bud/cane;2=2-3 buds/cane;3=4+ buds/cane
-BTO:0000661	Bud size	BUDSZ		Ratings of uniformity of flower bud size	Plant	active	Flower appearance		Uniformity of bud size	Visual survey of bud size on scale of 1 to 5. Referenced in Ehlenfeldt, M.K., Rowland, L.J., Ogden, E.L., Vinyard, B.T. 2007. Cold Hardiness of Vaccinium ashei, V. constablaei and Hybrid Flower Buds and the Potential for Producing Northern-Adapted Rabbiteye Cultivars. HortScience. 42:1131-1134.	Estimation		bud size	ordinal		1	5	1=uniformly sized buds;2=80% uniformly sized buds;3=50% uniformly sized buds;4=20% uniformly sized buds;5=substantial difference between smallest and largest buds
-BTO:0000649	Bush size	BSZ		Size of bush in January	Plant	active	Plant growth		Computation of bush size based on height and width in January	height x width measurement cm^2	Computation	some generic formula used for the calculation goes here…	cm^2	numerical				
-BTO:0000670	Caffeic acid content	CAC		Caffeic acid content	Plant	active	Phytochemical content		Caffeic acid content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000642	Calyx on/off	CALYX		Presence of calyx at time of harvest	Plant	active	Fruit appearance		Rating of calyx presence on a scale of 1 to 9	Visual rating of calyx on fruit at harvest (50% ripe)	Measurement		calyx	nominal		1	9	1=all calyx;2=80% having calyx;3=70% having calyx;4=60% having calyx;5=half having calyx (50%);6=40% having calyx;7=30% having calyx;8=20% having calyx;9=no calyx
-BTO:0000668	Catechin content	CC		Catechin content	Plant	active	Phytochemical content		Catechin content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000655	Cherry fruit worm 	CFW		Susceptible to cherry fruit worm 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Cherry fruit worm	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000648	Chilling requirement	CR		Chill units for 50% budbreak	Plant	active	Chilling requirement		Chill unit measurement	Shoots with flower buds were collected every 200 chill units and buds were rated after 3 weeks at 24°C.  Budbreak rated on scale of 1-7.  Mean chilling requirements were calculated and used to determine number of chill units required for 50% budbreak. Referenced in Rowland LJ, et al., Mol Breed. 2014;34(4):2033–48.	Computation	some generic formula used for the calculation goes here…	hours	numerical				
-BTO:0000672	Chlorogenic acid content	CHAC		Chlorogenic acid content	Plant	active	Phytochemical content		Chlorogenic acid content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000641	Citric acid content	CITAC		Citric acid content	Plant	active	Beta_PostHarvest; Phytochemical content		Citric acid content	Citric acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		mg/L	numerical				
-BTO:0000645	Cluster tightness, 1-3 scale	CLUSTER2		Fruit cluster tightness between individual fruits	Plant	active	Fruit quality; Fruit cluster tightness		Rating of cluster tightness on scale of 1 to 3	Visual rating of cluster tightness	Estimation		cluster tightness	ordinal		1	3	1=dense;2=medium-loose;3=loose
-BTO:0000671	Cluster tightness, 1-9 scale	CLUSTER	Clust	Fruit cluster tightness between individual fruits	Plant	active	Fruit quality; Fruit cluster tightness		Rating of cluster tightness on scale of 1 to 9	Visual rating of cluster tightness, released varities are usually a 4-6	Estimation		cluster tightness	ordinal		1	9	1=very tight;2=mostly tight;3=moderately tight;4=semi-loose;5=loose (type 5);6=loose (type 6);7=moderately loose;8=mostly loose;9=extremely loose
-BTO:0000660	Cold tolerance	COLDTL	Cold hardiness	The temperature causing 50% bud injury (LT50)	Plant	active	Cold tolerance		Percent of dead buds due to winter damage	Shoots from plants subjected to freeze-thaw protocol, distal buds assessed for damage and percent of damage calculated, measured as LT50 which is temperature that causes 50% injury overall. Referenced in Rowland LJ, Ogden EL, Bassil N, Buck EJ, McCallum S, Graham J, et al. Construction of a genetic linkage map of an interspecific diploid blueberry population and identification of QTL for chilling requirement and cold hardiness. Mol Breed. 2014;34(4):2033–48.	Computation	some generic formula used for the calculation goes here…	temperature in celsius	numerical				
-BTO:0000666	Core Collection	CORE		Notation if line is included in core collection	Plant	active	Core collection		A flag to indicate the plant/accession is part of the core subset	A flag to indicate the plant/accession is part of the core subset	Measurement		yes/no	nominal				0=No;1=yes
-BTO:0000687	Cranberry fruit worm 	CRFW		Susceptible to cranberry fruit worm 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Cranberry fruit worm	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000664	Cyanidin arabinoside content	CYAC		Cyanidin arabinoside content	Plant	active	Phytochemical content		Cyanidin arabinoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000686	Cyanidin galactoside content	CYGAC		Cyanidin galactoside content	Plant	active	Phytochemical content		Cyanidin galactoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000659	Cyanidin glucoside content	CYGLC		Cyanidin glucoside content	Plant	active	Phytochemical content		Cyanidin glucoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000675	Delphinidin arabinoside content	DAC		Delphinidin arabinoside content	Plant	active	Phytochemical content		Delphinidin arabinoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000680	Delphinidin galactoside content	DGAC		Delphinidin galactoside content	Plant	active	Phytochemical content		Delphinidin galactoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000662	Delphinidin glucoside content	DGLC		Delphinidin glucoside content	Plant	active	Phytochemical content		Delphinidin glucoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000643	DNA Ratio	DNARATIO		Ratio of DNA to DNA in a standard plant	Plant	active	DNA ratio		Ratio of DNA to DNA in standard plant	Flow cytometry measurement of the ratio of the amoun tof sample DNA to the amount of DNA in a standard plant. Flow Cytometry determination using DAPI with internal standard = Vinca minor. Referenced in performed by Plant Cytometry Services, The Netherlands, 30 June 2012. This project was a collaborative effort from the USDA ARS and the University of Florida.	Measurement		DNA/stdDNA	numerical				
-BTO:0000663	Early green fruit	EGF		Timing of early green fruit	Plant	active	Fruit development		Day of year (Julian day) when plant reached Early Green fruit (EG) stage (>50%)	Day of year (Julian day) when plant reached Early Green fruit (EG) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		date	numerical				
-BTO:0000732	Epi-catechin content	ECC		Epi-catechin content	Plant	active	Phytochemical content		Epi-catechin content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000733	Ethnic group	ETGROUP	Ethnic-Group	Name of Tribal Nation associated with accession	Plant	active	Ethnic group		A flag to indicate the name of the Tribal Nation associated with the accession	A flag to indicate the name of the Tribal Nation associated with the accession as Referenced in Pricilla Russell Kari from Athabascan Elders. Published by US National Park Service in 1995	Measurement		tribe	text				
-BTO:0000708	Exobasidium leaf and fruit spot 	ELFS		Susceptible to exobasidium leaf and fruit spot 	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Exobasidium leaf and fruit spot 	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000702	Ferulic acid content	FAC		Ferulic acid content	Plant	active	Phytochemical content		Ferulic acid content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000709	First bloom	FIB	First flower date, 1stFlw, FIRSTBLOOM	Day of year (Julian day) when plant reached Early Bloom stage (<5%)	Plant	active	Fruit development; Fruit mature rate		Day of year (Julian day) when plant reached Early Bloom stage (<5%)	Day of year (Julian day) when plant reached Early Bloom stage (<5%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		date	date				
-BTO:0000724	First ripe	FRP	1Ripe, FIRSTRIPE	Day of year (Julian day) when first berry is ripe	Plant	active	Fruit development		Day of year (Julian day) when first berry is ripe	Day of year (Julian day) when first berry is ripe	Measurement		date	numerical				
-BTO:0000703	Flavanol content	FLAVONC		Flavanol content	Plant	active	Beta_PostHarvest		Flavanol content	Flavanol content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		mg/100 g of fresh weight	numerical				
-BTO:0000701	Flavonol content	FLAVANC		Flavonol content	Plant	active	Beta_PostHarvest		Flavonol content	Flavonol content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		mg/100 g of fresh weight	numerical				
-BTO:0000697	Flower blight	FLBL		Death of blooms from BLSHV or Pseudomonas	Plant	active	Disease resistance; flower		Percent of flowers which have died due to disease	Percent of dead flowers	Estimation		percent	numerical		0	100	
-BTO:0000691	Flower thrips 	FLTH		Susceptible to flower thrips 	Plant	active	Insect resistance; flower		Visual observation of insect presence	Visual observation of insect presence of Flower thrips	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000738	Frost damage	FRDMG		Late frost damage assessed as percent of dead buds	Plant	active	Frost damage		Percent of dead buds due to frost damage	Percent of dead buds from frost damage	Computation	some generic formula used for the calculation goes here…	percent	numerical		0	100	
-BTO:0000712	Fructose content	FRUCC		Fructose content	Plant	active	Beta_PostHarvest		Fructose content	Fructose content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		g/L	numerical				
-BTO:0000728	Fruit appearance	FRAP		Attractiveness of fruit appearance	Plant	active	postHarvest; fruit Quality		Rating of fruit appearance on scale of 1 to 9	Visual rating of fruit appearance	Estimation		fruit appearance	ordinal		1	9	1=ugly, mishappen, odd size, lumpy fruit;2=90% ugly, mishappen, lumpy fruits;3=75% ugly, mishappen, lumpy fruits;4=60% ugly, mishappen, lumpy fruits;5=45% ugly, mishappen, lumpy fruits;6=30% ugly, mishappen, lumpy fruits;7=15% ugly, mishappen, lumpy fruits;8=5% ugly, mishappen, lumpy fruits;9=attractive, uniform size, perfect roundness, blossom end intact
-BTO:0000726	Fruit color	FRCL	Post-harvest color	Color of fruit rated on a scale of 1-9	Plant	active	postHarvest; fruit Quality		Color of fruit rated on a scale of 1 to 9	Visual survey of fruit color	Estimation		fruit color	ordinal		1	9	1=black fruit;2=light black fruit;3=dark purple fruit;4=light purple fruit;5=dark red fruit;6=light red fruit;7=dark blue fruits;8=light blue fruits;9=aluminum blue fruits
-BTO:0000706	Fruit color, wax removed	FRCL2		Fruit color after wax removal	Plant	active	postHarvest; fruit Quality		Color of fruit when wax is rubbed off ratedon scale of 1 to 9	Visual survey of fruit color after wax is removed	Estimation		fruit color	ordinal		1	9	1=black fruit;2=light black fruit;3=dark purple fruit;4=light purple fruit;5=dark red fruit;6=light red fruit;7=dark blue fruits;8=light blue fruits;9=aluminum blue fruits
-BTO:0000707	Fruit crispness	FRCR	Fruit texture	Texture of fruit	Plant	active	postHarvest; fruit Quality		Rating of fruit crispness/texture on a scale of 1 to 9	Characteristic of fruit when bite into	Estimation		fruit crispness	ordinal		1	9	1=mush;2=mostly mush;3=moderately mush;4=semi mush;5=semi firm;6=moderatly firm;7=mostly firm;8=nice pop, optimal firmness;9=too firm
-BTO:0000704	Fruit decay	FRD		Amount of fruit decay after storage	Plant	active	postHarvest; fruit Quality		Rating of fruit decay after storage on scale of 1 to 9	Visual rating of fruit decay	Estimation		fruit decay	ordinal		1	9	1=all decayed;2=90% decayed;3=75% decayed;4=60% decayed;5=45% decayed;6=30% decayed;7=15% decayed;8=5% decayed;9=no decay
-BTO:0000693	Fruit diameter, mm	FRDIA		Average diameter of fruit in mm	Plant	active	Fruit quality; Fruit size	Jeannie Rowland	Average diameter of single fruit	Average diameter (mm) of  fruit calculated from 20 fruit sample according to Rowland, L.J., Ogden, E.L., and Vinyard, B.T. (2020) Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		mm	numerical				
-BTO:0000731	Fruit ease of release	FREASE	PkEase	Ease of picking or removing fruit from plant	Plant	active	Harvest		Rating of how easy fruit is removed from bush	Ease of fruit release measured at 50% ripe	Estimation		fruit ease of release	ordinal		1	9	1=difficult to remove;2=90% difficult to remove;3=75% difficult to remove;4=60% difficult to remove;5=45% difficult to remove;6=30% difficult to remove;7=15% difficult to remove;8=5% difficult to remove;9=very easy to remove
-BTO:0000713	Fruit firmness, measured	FRFRM2		Firmness of fruit measurement	Plant	active	Fruit quality; fruit firmness	Jeannie Rowland	Measurement of fruit firmness via machine (penetrometer)	Measurement of fruit firmness from 20 berries with a texture analyzer (TA.XT, Stable Micro Systems, Surrey, UK) according to Rowland, L.J., Ogden, E.L., and Vinyard, B.T. (2020) Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		N	numerical				
-BTO:0000692	Fruit firmness, scale	FRFRM	Firm	Firmness of fruit estimation	Plant	active	PostHarvest; fruit Quality	Jeannie Rowland	Rating of fruit firmness on a scale of 1 to 9	Rating of fruit firmness on a scale of 1 to 9 according to Rowland, L.J., Ogden, E.L., and Vinyard, B.T. (2020) Agronomy 10, 1067; doi:10.3390/agronomy10081067	Estimation		fruit firmness	ordinal		1	9	1=very soft;2=mostly soft;3=moderately soft;4=semi soft;5=semi firm;6=moderatly firm;7=mostly firm;8=nice pop, optimal firmness;9=very firm
-BTO:0000705	Fruit flavor, 0-9 scale	FRF		Rating of the fruit flavor	Plant	active	PostHarvest; fruit Quality	Jeannie Rowland	Rating of fruit flavor on a scale of 0 to 9	Tasting of fruit and application of a scale. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Estimation		fruit flavor	ordinal		0	9	0=very bland or no flavor;1=very tart, no sweetness;2=very tart but sweetness;3=still too tart;4=slight too tart but acceptable;5=balanced tartness and sweetness;6=slightly tart but good sweetness;7=slightly tart but sweetness overpowering;8=sweetness overpowering;9=very, extremely sweet;
-BTO:0000719	Fruit flavor, 1-9 scale	FRF2		Rating of the fruit flavor	Plant	active	PostHarvest; fruit Quality		Rating of fruit flavor on a scale of 1 to 9	Tasting of fruit and application of a scale	Estimation		fruit flavor	ordinal		1	9	1=awful;2=very tart but sweetness;3=still too tart;4=slight too tart but acceptable;5=balanced tartness and sweetness;6=slightly tart but good sweetness;7=slightly tart but sweetness overpowering;8=sweetness overpowering;9=excellent
-BTO:0000717	Fruit pH	FRPH		pH of juice from fruit	Plant	active	Beta_PostHarvest		pH of fruit juice	Measurement of pH in 5 g berry juice diluted with 45 mL water dectected with pH meter.	Measurement		pH	numerical				
-BTO:0000723	Fruit picking scar	FRSC	Scar	Size rating of picking scar on fruit	Plant	active	Harvest; Fruit quality		Rating of picking scar on scale of 1 to 9	Visual rating of picking scar on fruit according to Finn, C.E. & Luby, J.J. (1992) J of Am Soc of Hort Sci, 117, (4) 617-621	Estimation		fruit picking scar	ordinal		1	9	1=large, deep, torn skin, wet;2=90% large, deep, torn skin, wet;3=75% large, deep, torn skin, wet;4=60% large, deep, torn skin, wet;5=45% large, deep, torn skin, wet;6=30% large, deep, torn skin, wet;7=15% large, deep, torn skin, wet;8=5% large, deep, torn skin, wet;9=small, dry
-BTO:0000690	Fruit rot susceptibility	FRROT		Susceptibility to anthracnose fruit rot	Plant	active	Disease resistance; fruit		Percent of rotted fruit 	Green fruit on potted plants was inoculated and maintained plants until fruit ripened. Ripe fruit was incubated under humid conditions for approximately 1 week. Percentage rotted fruit was determined.	Measurement		percent	numerical		0	100	
-BTO:0000694	Fruit rot, percent	PFRROT	PERCENTROT	Percent of fruit rot	Plant	active	Disease resistance; fruit		Percent of fruit rot	Percent of fruit rot on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		percent	numerical		0	100	
-BTO:0000696	Fruit set, percent	FSP		Percent fruit set	Plant	active	Yield; Harvest		Percent fruit set	Percent of fruit set on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		percent	numerical		0	100	
-BTO:0000730	Fruit size	FRSZ	Size	Fruit size rated on a scale	Plant	active	PostHarvest; Fruit Quality		Rating of fruit size on scale of 1 to 9	Visual rating of overall fruit size	Estimation		fruit size	ordinal		1	9	1=worst, heterogenous sizes;2=90% heterogeneous sizes;3=75% heterogeneous sizes;4=60% heterogeneous sizes;5=45% heterogeneous sizes;6=30% heterogeneous sizes;7=15% heterogeneous sizes;8=5% heterogeneous sizes;9=best, homogeneous
-BTO:0000739	Fruit size, number per cup	FRSZ2	CUPCOUNT	Fruit size number of berries per cup	Plant	active	Fruit quality; Fruit size		Count of numer of berries per cup	Count of number of berries per cup measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		count	numerical		0		
-BTO:0000716	Fruit split after wetting	FRSP		Percent of fruit that split after setting in water	Plant	active	Fruit quality; Fruit size		Percent of fruit that split from water	Percent of berries that were split after submersion in water for 14 hr. Referenced in Marshall et al. (2007). Laboratory method to estimate rain-induced splitting in cultivated blueberries. HortScience 42(7):1551–1553.	Computation	some generic formula used for the calculation goes here…	percent	numerical		0	100	
-BTO:0000720	Fruit texture	FT		Texture of mature fruit	Plant	active	PostHarvest; Fruit Quality		Rating of mature fruit texture on scale of 1-9	Survey of fruit texture on a scale 	Estimation		fruit texture	ordinal		1	9	1=mush;2=mostly mush;3=moderately mush;4=semi mush;5=semi firm;6=moderatly firm;7=mostly firm;8=crunch;9=too firm
-BTO:0000725	Fruit UV damage	FRUV		Amount of UV damage on fruit	Plant	active	PostHarvest; Fruit Quality		Amount of UV damage on scale of 1 to 9	Visual rating of UV damage on fruit	Estimation		fruit UV damange	ordinal		1	9	1=lots of damage;2=90% damage;3=75% damage;4=60% damage;5=45% damage;6=30% damage;7=15% damage;8=5% damage;9=no damage
-BTO:0000722	Fruit weight, 25 fruit sample	FWT		Average weight of fruit	Plant	active	Fruit quality; Fruit weight		Average weight of single fruit	Average weight (g) of one fruit calculated from 25 fruit sample. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		grams	numerical				
-BTO:0000714	Fruit weight, 30 fruit sample	FWT2		Average weight of fruit	Plant	active	Fruit quality; Fruit weight		Average weight of single fruit	Average weight (g) of one fruit calculated from 30 fruit sample	Measurement		grams	numerical				
-BTO:0000734	Fruit yield, 1-9 scale	YLD		Fruit yield rated on a scale	Plant	active	PostHarvest; Fruit yield		Rating of yield on a scale of 1 to 9	Visual rating of fruit yield	Estimation		fruit yield	ordinal		1	9	1=no yield;2=very low yield;3=low yield;4=moderately low yiedld;5=average yield;6=above average yield;7=moderately high yield;8=high yield, optimal;9=overloaded, berries crowded, branches drooping or breaking
-BTO:0000715	Fruit yield, weight	YLDW		Average weight of fruit yield per plant	Plant	active	PostHarvest; Fruit yield		Measurement of yield per plant	Fruit weight (kg) per plant, average of 4 plants/genotype	Measurement		kg	numerical				
-BTO:0000737	Full bloom	FUB	FullBl	Day of year (Julian day) when plant reached Full Bloom stage (>80%)	Plant	active	Fruit development		Day of year (Julian day) when plant reached Full Bloom stage (>50%)	Day of year (Julian day) when plant reached Full Bloom stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		date	date				
-BTO:0000710	Gall midge	GALL		Susceptible to gall midge	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Gall midge	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000711	Glucose content	GLUCC		Glucose content	Plant	active	Beta_PostHarvest; Sugar content; Discrete Analyzer		Glucose content	Glucose content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		g/L	numerical				
-BTO:0000698	Green fruit drop	GFRD	Draper drop	Loss of green fruit at beginning of season before ripening	Plant	active	Fruit yield; Fruit drop		Visual observation of loss of green fruit early in season	Visual observation of loss of green fruit early in season	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000695	Growth habit	GRH		Upright or sprawling or narrow growth habit	Plant	active	Plant growth		Rating of plant growth habit on a scale of 1 to 9	Visual rating of plant growth habit	Estimation		growth habit	ordinal		1	9	1=willowy;2=90% willowy;3=75% willowy;4=60% willowy;5=45% willowy;6=30% willowy;7=15% willowy;8=5% willowy;9=stocky
-BTO:0000735	Kaempferol glucoside content	KGC		Kaempferol-7-O-glucoside content	Plant	active	Phytochemical content		Kaempferol glucoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000736	Late green fruit	LGF		Timing of late green fruit	Plant	active	Fruit development		Day of year (Julian day) when plant reached Late Green fruit (LG) stage (>50%)	Day of year (Julian day) when plant reached Late Green fruit (LG) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		date	numerical				
-BTO:0000699	Leaf color	LC		Color of leaves in fall	Plant	active	Plant appearance		Observed color of leaves in autumn	Color of leaves during autumn weather	Measurement		color	nominal				0=green (G);1=red (R);
-BTO:0000729	Leaf coverage	LFD		Density of leaves in plant canopy	Plant	active	Plant appearance		Subjective rating or describe density of leaves in plant canopy	Scale of 1 - 9, where 9 is the greatest 	Estimation		leaf density	ordinal		1	9	1=less dense canopy;2=moderately loose canopy;3=semi-loose canopy;4=loose canopy;5=average density canopy;6=above average dense canopy;7=moderately dense canopy;8=dense canopy;9=very dense canopy
-BTO:0000727	Leaf rust resistance	LRR		Reaction to leaves to leaf rust inoculation	Plant	active	Disease resistance; leaf		Reaction to leaf rust on scale of 0 to 4	Four weeks after inoculation, four to six leaves were inspected and the disease reactions were rated. Referenced in Babiker et al. (2018) HortScience 53(10):1447–1452. Reaction of different Vaccinium species to the blueberry leaf rust pathogen Thekopsora minima	Estimation		leaf rust resistance	ordinal		0	4	0=immune;1=resistant;2=moderately susceptible;3=susceptible;4=highly susceptible
-BTO:0000700	Leaf to bloom ratio	LBR		Order of bloom and leaf emergence in January	Plant	active	Plant growth	Ebrahiem Babiker	Leaf to bloom ratio	Visual observation of the order of appearance of first leaf and first bloom in January	Estimation		leaf to bloom ratio	ordinal		-1	1	0=leaf and bloom at the same time; 1=leaf appears first; -1=bloom appears first
-BTO:0000718	Leafhopper resistance	LHR		Resistance to Scaphytopius magdalensis	Plant	active	Biotic resistance; pest resistance		Testing of leafhopper resistance in controlled conditions	Leafhopper growth index values were calculated.  Highly susceptible had values close to 25 and resistant had an index value of zero. Referenced in Meyer, J. R. and J. R. Ballington. 1990. Resistance of Vaccinium spp. to the leafhopper Scaphytopius magdalensis (Homoptera: Cicadellidae). Ann. Entomol. Soc. Am. 83: 515-520.	Computation	some generic formula used for the calculation goes here…	growth index	numerical				
-BTO:0000721	Malic acid content	MALAC		Malic acid content	Plant	active	Beta_PostHarvest		Malic acid content	Malic acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		mg/L	numerical				
-BTO:0000770	Malvidin arabinoside content	MAC		Malvidin arabinoside content	Plant	active	Phytochemical content		Malvidin arabinoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000750	Malvidin galactoside content	MGAC		Malvidin galactoside content	Plant	active	Phytochemical content		Malvidin galactoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000751	Malvidin glucoside content	MGLC		Malvidin glucoside content	Plant	active	Phytochemical content		Malvidin glucoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000760	Mineral soil adaptation index	MINSOIL		Index calculated from vegetative vigor, yield, and nutrient deficiency	Plant	active	Phytochemical content		Plant growth and yield due to soil	A mineral soil adaptation index (0 – 10) for each genotype was calculated as follows: mineral soil adaptation score = Ʃ mean ratings for vegetative vigor, yield balance  and nutrient deficiency symptoms divided by 5. This index was used in conjunction with growth and fruiting data to evaluate genotypic response to the mineral soil environment.  Individuals displaying indices > or = 7.5 exhibited mineral soil adaptation. Referenced in Scheerens, J.C., Erb, W.A., Goulart, B.L., and Hancock, J.F. (1999a). Blueberry hybrids with complex genetic backgrounds evaluated on mineral soils: stature, growth rate, yield potential and adaptability to mineral soil conditions as influenced by parental species. Fruit Var. J. 53, 73–90.	Computation	some generic formula used for the calculation goes here…	index	ordinal		0	10	0=no adaptation;1=10% adaptation;2=20% adaptation;3=30% adaptation;4=40% adaptation;5=50% adaptation;6=60% adaptation;7=70% adaptation;8=80% adaptation;9=90% adaptation;10=highest adaptation
-BTO:0000747	Monopodial stem 	MONO		Monopodial growth habit	Plant	active	Plant growth		Observation if plant has monopodial growth habit	Observation if plant has monopodial growth habit	Estimation		yes/no	text				0=No;1=yes
-BTO:0000744	Mummy berry blight susceptibility	MBBL		Percent of shoots with mummy berry blight	Plant	active	Disease resistance		Percent of shoots with blight	Number of blighted and non-blighted shoots were counted and used to calculate percent with blight	Computation	some generic formula used for the calculation goes here…	percent	numerical		0	100	
-BTO:0000741	Mummy berry fruit rot susceptibility	MBFR		Percent of fruit with mummy berry rot	Plant	active	Disease resistance		Percent of fruit with rot	Number of rotted and non-rotted fruit were counted and used to calculate percent with blight	Computation	some generic formula used for the calculation goes here…	percent	numerical		0	100	
-BTO:0000777	Myricetin glucoside content	MGC		Myricetin 3-glucoside content	Plant	active	Phytochemical content		Myricetin glucoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000742	Necrotic ring blotch virus 	NRBV		Susceptible to necrotic ring blotch virus 	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Necrotic ring blotch virus 	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000745	Nematodes 	NEM		Susceptible to nematodes 	Plant	active	Nematode resistance		Visual observation of disease presence	Visual observation of disease presence of Nematodes	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000756	Number of fruit	NFR		Number of fruit harvested from in vivo pollinations	Plant	active	Fruit yield; Harvest		Number of fruit harvested from in vivo pollinations	Number of pollinated fruit/total number in vivo pollinations	Measurement		percent	numerical		0	100	
-BTO:0000767	Peonidin arabinoside content	PAC		Peonidin arabinoside content	Plant	active	Phytochemical content		Peonidin arabinoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000761	Peonidin galactoside content	PGAC		Peonidin galactoside content	Plant	active	Phytochemical content		Peonidin galactoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000755	Peonidin glucoside content	PGLC		Peonidin glucoside content	Plant	active	Phytochemical content		Peonidin glucoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000771	Petal fall	PF		Timing of petal fall	Plant	active	Fruit development	Jeannie Rowland	Day of year (Julian day) when plant reached Petal Fall (PF) stage (>50%)	Day of year (Julian day) when plant reached Petal Fall (PF) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		date	numerical				
-BTO:0000776	Petunidin arabinoside content	PEAC		Petunidin arabinoside content	Plant	active	Phytochemical content		Petunidin arabinoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000778	Petunidin galactoside content	PEGAC		Petunidin galactoside content	Plant	active	Phytochemical content		Petunidin galactoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000759	Petunidin glucoside content 	PEGLC		Petunidin glucoside content 	Plant	active	Phytochemical content		Petunidin glucoside content 	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000758	Phenolic acid content	PHENAC		Phenolic acid content	Plant	active	Beta_PostHarvest; Phytochemical content		Phenolic acid content	Phenolic acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		mg/100 g of fresh weight	numerical				
-BTO:0000757	Phomopsis twig blight 	PHTB		Susceptible to phomopsis twig blight 	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Phomopsis twig blight 	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000740	Phytophthora root rot 	PRR		Susceptible to phytophthora root rot 	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Phytophthora root rot	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000753	Plant growth, upright cm	PLGRC		The growth of plant upright in cm	Plant	active	Plant vigor		Measurement of plant growth upright in centimeters	Measurement of plant upright growth in centimeters as referenced in VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		cm	numerical		0		
-BTO:0000762	Plant height	PLHGT		Plant height measured in centimeters	Plant	active	Plant vigor		Measurement of plant height in centimeters	Measurement of plant height in centimeters in January	Measurement		cm	numerical				
-BTO:0000772	Plant vigor, 1-3 scale	VIG2		The vigor of the plant	Plant	active	Plant vigor		Rating of plant vigor on a scale of 1 to 3	Visual rating of plant vigour	Estimation		plant vigor	ordinal		1	3	1=weak;2=between or average;3=vigorous
-BTO:0000743	Plant vigor, 1-9 scale	VIG		The vigor of the plant	Plant	active	Plant vigor		Rating of plant vigor on a scale of 1 to 9	Visual rating of plant vigour	Estimation		plant vigor	ordinal		1	9	1=weak, most will die;2=weak, 80% will die;3=weak, 70% will die;4=60% will die;5=average vigorous, 50% will die;6=above average vigorous (40% will die);7=moderately vigoroug (30% will die);8=vigorous (20% will die);9=very vigorous (highest survival)
-BTO:0000765	Plant vigor, Computation	VIG3		The vigor of the plant based on measurements	Plant	active	Plant vigor		Computation of bush size based on height and width at end of summer	height x width measurement cm^2	Computation	some generic formula used for the calculation goes here…	cm^2	numerical				
-BTO:0000766	Plant width	PLWTH		Plant width measured in centimeters	Plant	active	Plant vigor		Measurement of plant width in centimeters	Measurement of plant width in centimeters in January	Measurement		cm	numerical				
-BTO:0000779	Ploidy	PLOIDY		Number of sets of chromosomes	Plant	active	Ploidy		Determination of ploidy	Nuclei are measured with a flow cytometer to determine dosage of haploid number. Referenced in Hummer, K.E., N.V. Bassil, H.P. Rodríguez Armenta, and J.W.Olmstead, 2015. Vaccinium Species Ploidy Assessment. Acta Hortic. 1101:199-204. DOI 10.17660/ActaHortic.2015.1101.30	Measurement		ploidy	ordinal				2=2n (diploid);3=3n (triploid);4=4n (tetraploid);5=5n (pentaploid);6=6n (hexaploid)
-BTO:0000775	Ploidy Equation	PLOIDYEQUA		Ploidy equation expressing sets of chromosomes	Plant	active	Ploidy		Equation of the ploidy of the plant	Equation of the ploidy of the plant. Example 2n = 2x = YY	Measurement		ploidy equation	ordinal				2=24 chromosomes (diploid);3=36 chromosomes (triploid);4=48 chromosomes (tetraploid);5=60 chromosomes (pentaploid);6=72 chromosomes (hexaploid)
-BTO:0000754	Plum curculio 	PC		Susceptible to plum curculio 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Plum curculio	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000748	Pollen germination rate	POLGR		Pollen germination rate	Plant	active	Pollen germination		Measurement of pollen germination rate	Measurement of pollen germination rate, tube length and tube number as referenced in Gan, Zhang, Bostan, Devetter, 2020 Pollen performance	Measurement		pollen germination rate	ordinal				1=Lowest;2=Medium;3=Highest
-BTO:0000764	Pollination rate	POLR		Number of flowers that were successfully pollinated from in vivo pollinations	Plant	active	Pollination rate		Number of successful flower pollinations from in vivo pollinations	Number of pollinated flowers/total number in vivo pollinations	Measurement		percent	numerical		0	100	
-BTO:0000746	Procyanidin-B1 content	PB1C		Procyanidin-B1 content	Plant	active	Phytochemical content		Procyanidin-B1 content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000752	Procyanidin-B2 content	PB2C		Procyanidin-B2 content	Plant	active	Phytochemical content		Procyanidin-B2 content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000769	Quercetin arabinoside content	QAC		Quercetin-arabinoside and/or pentoside content	Plant	active	Phytochemical content		Quercetin arabinoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000773	Quercetin galactoside content	QGC		Quercetin 3-D-galactoside and/or glucoside content	Plant	active	Phytochemical content		Quercetin galactoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000763	Quercetin rutinoside content	QRC		Quercetin-3-Rutinoside content	Plant	active	Phytochemical content		Quercetin rutinoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000749	Repeat Bloom, percent	REPEATBLM		Percent repeat bloom	Plant	active	Plant growth; Bloom rate		Percent of repeat bloom	Percent of repeat bloom on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		percent	numerical		0	100	
-BTO:0000768	Retention of firmness (on bush)	FRFRMB		Retention of fruit firmness while on bush	Plant	active	Fruit firmness; Fruit quality		Observation of fruit firmness when left on bush	Observation of fruit firmness when left on bush	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000774	Retention of flavor (on bush) 	FRFB		Retention of fruit flavr while on bush	Plant	active	Fruit flavor		Observation of fruit flavor when left on bush	Observation of fruit flavor when left on bush	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000802	Ripening time	RPT		Days until 50% ripe	Plant	active	Fruit development		Number of days until maturity	Number of days from January 1 to 50% ripe	Counting		days	numerical				
-BTO:0000798	Scale insects 	SCALE		Susceptible to scale insects 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Scale insects	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000818	Seed count	SDN		Average seed count per fruit	Plant	active	Fruit quality; PostHarvest quality		Number of seeds per fruit	Average number of seeds per fruit	Measurement		count	numerical				
-BTO:0000797	Self-fertility	SELF		Self-fertility of cultivar	Plant	active	Self-fertility		Effectiveness of self-pollination	Cross with self-pollen or bulk-pollen at least 50 flowers/cross, record number of flowers pollinated, fruit harvested, fruit weight, seed count/fruit and compare self-pollinated with bulk-pollinated	Computation	some generic formula used for the calculation goes here…	percent	numerical		0	1	
-BTO:0000792	Sharp-nosed leafhopper	SNL		Susceptible to sharp-nosed leafhopper	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Sharp-nosed leafhopper	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000806	Shoot expansion	SHEXP		Timing of shoot expansion	Plant	active	Plant growth	Jeannie Rowland	Day of year (Julian day) when plant reached Shoot Expansion (SE) stage (>50%)	Day of year (Julian day) when plant reached Shoot Expansion (SE) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		date	numerical				
-BTO:0000789	Soluble Solids	SS2		Total sugar content	Plant	active	Beta_PostHarvest; Sugar content		Brix reading from fruit	Sugar content in berry juice from a 10-berry sample at 50% ripe stage measured with refractometer as percent of dissolved solids (brix).	Measurement		brix	numerical				
-BTO:0000819	Soluble solids, 200 g 	SS3		Measure of sugar content by measuring percent of dissolved solids (brix)	Plant	active	Sugar content		Brix reading from fruit	Measured from juice from a 200 g homogenated berry sample with a refractometer	Measurement		brix	numerical				
-BTO:0000809	Soluble solids, 4 reps, 5 berries	SS		Measure of sugar content by measuring percent of dissolved solids (brix)	Plant	active	Sugar content		Brix reading from fruit	Measured from juice from berries.  Result is average of 4 reps of 5 berries per genotype. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067	Measurement		brix	numerical				
-BTO:0000800	Soluble solids, OSU	SS5		Measure of sugar content by measuring percent of dissolved solids (brix)	Plant	active	Sugar content		Brix reading from fruit	Measured from juice from a berry sample	Measurement		brix	numerical				
-BTO:0000785	Soluble solids, percent	SSP		Percent soluble solids	Plant	active	Soluble solids		Percent soluble solids	Referenced in Sampson et al. 2020 SWD antibiosis	Measurement		percent	numerical		0	100	
-BTO:0000820	Spotted-wing Drosophila adult mortality	SWDAMP		SWD adult mortality percent	Plant	active	Insect resistance; Drosophila resistance		Spotted-wing Drosophila adult mortality percentage	Spotted-wing drosphila adult mortality percent calculated as in Reference Sampson et al. 2020 SWD antibiosis	Measurement		percent	numerical		0	100	
-BTO:0000813	Spotted-wing Drosophila larvae per fruit	SWDLPF		SWD larvae per fruit	Plant	active	Insect resistance; Drosophila resistance		Spotted-wing Drosophila larvae per fruit	Spotted-wing drosphila average larvae per fruit calculated as in Reference Sampson et al. 2020 SWD antibiosis	Measurement		count	numerical		0		
-BTO:0000812	Spotted-wing Drosophila reproductive rate	SWDRR		SWD reproductive rate	Plant	active	Insect resistance; Drosophila resistance		Spotted-wing Drosophila reproductive rate	Spotted-wing drosphila reproductive rate calculated as in Reference Sampson et al. 2020 SWD antibiosis	Measurement		count	numerical		0		
-BTO:0000790	Spotted-wing Drosophila resistance	SWD		SWD resistance (antibiosis) of fruit	Plant	active	Insect resistance; Drosophila resistance		Rating of berry resistance to SWD feeding on a scale of 1 to 5	A resistance index was calculated as the sum of the number of fly reproductive parameters not significant (indicated by **) from the host (Vaccinium) standard)) + 1 (for significance from non-host standard) or +2 (for non-significance from non-host standard). The minimal resistance value is 1, the maximum is 5. Referenced in Blair Sampson, and Stephen Stringer, Kim Hummer, Ebrahiem Babiker, Chris Werle, and Donna Marshall-Shaw 2020. (submitted for publication 2020)	Computation	some generic formula used for the calculation goes here…	index	ordinal		1	5	1=minimal resistance (15% resistant);2=light resistance (30% resistant);3=moderate resistance (45% resistant);4=high resistance (75% resistant);5=maximum resistance (>80% resistant)
-BTO:0000815	Spotted-wing Drosophila resistance index	SWDRI		SWD resistance index	Plant	active	Insect resistance; Drosophila resistance		Spotted-wing Drosophila resistance index	Spotted-wing drosphila resistance index calculated as in Reference Sampson et al. 2020 SWD antibiosis. Resistance Index = (sum of the non-significant reproductive parmeters (indicated by **) compared with Vaccinium standard) + 1 (for significance from non-host standard) or +2 (for non-significance from non-host standard) min = 1, max = 5	Measurement		index	ordinal				0=susceptible;1=80% susceptible;2=60% susceptible;3=40% susceptible;4=20% susceptible;5=resistant;
-BTO:0000795	Spotted-wing Drosophila resistance, oviposition success index count	SWDOSIC		SWD resistance, oviposition success index count	Plant	active	Insect resistance; Drosophila resistance		Spotted-wing Drosophila resistance, oviposition success index count	One hundred berries were sampled from each of the 88 rabbiteye and southern highbush cultivars and selections and examined for the presence or absence of SWD feeding damage or egg laying. Referenced in Stringer, S.J., Sampson, B.J. and Hummer, K.E. (2017). Screening small fruit germplasm for resistance to southern populations of invasive spotted wing drosophila, SWD (Diptera: Drosophilidae). Acta Hortic. (ISHS) 1180:45-52 https://doi.org/10.17660/ActaHortic.2017.1180.7	Measurement		count	numerical		0	35	
-BTO:0000803	Spotted-wing Drosophila resistance, oviposition success index scale	SWDOSIS		SWD resistance, oviposition success index scale	Plant	active	Insect resistance; Drosophila resistance		Spotted-wing Drosophila resistance, oviposition success index scale	One hundred berries were sampled from each of the 88 rabbiteye and southern highbush cultivars and selections and examined for the presence or absence of SWD feeding damage or egg laying, translated to show non-preference or susceptibility based on counts. Referenced in Stringer, S.J., Sampson, B.J. and Hummer, K.E. (2017). Screening small fruit germplasm for resistance to southern populations of invasive spotted wing drosophila, SWD (Diptera: Drosophilidae). Acta Hortic. (ISHS) 1180:45-52 https://doi.org/10.17660/ActaHortic.2017.1180.7	Estimation	some generic formula used for the calculation goes here…	yes/no	nominal				0=not susceptible;1=susceptible;
-BTO:0000786	Spotted-wing Drosophila viable eggs per fruit	SWDVEPF		SWD viable eggs per fruit	Plant	active	Insect resistance; Drosophila resistance		Spotted-wing Drosophila viable eggs per fruit	Spotted-wing drosphila viable eggs per fruit calculated as in Reference Sampson et al. 2020 SWD antibiosis	Measurement		count	numerical		0		
-BTO:0000817	Stem blight susceptibility	STBL		Fungal lesion size compared to control	Plant	active	Disease resistance		Stem lesion size compared to susceptible control	Measurement and comparison of stem lesions on susceptible cultivar in a detached stem assay with fungal inoculations. Referenced in Smith, B.J. 2009. Botryosphaeria stem blight of southern blueberries: Cultivar susceptibility and effect of chemical treatments. Acta Hort.810:385–394	Measurement		mm	numerical				
-BTO:0000780	Stem borers 	STB		Susceptible to stem borers 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Stem borers	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000793	Stem canker	STCA		Susceptible to stem canker	Plant	active	Disease resistance		Visual observation of disease presence	Visual observation of disease presence of Stem canker	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000787	Stem gall wasp 	STGW		Susceptible to stem gall wasp 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Stem gall wasp	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000811	Sucrose content	SUCC		Sucrose content 	Plant	active	Beta_PostHarvest; Sugar content; Discrete Analyzer		Sucrose content	Sucrose content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		g/L	numerical				
-BTO:0000814	Syrengitin glucoside content	AGC		Syringetin 3-glucoside content	Plant	active	Phytochemical content		Syrengitin glucoside content	Measured with HPLC, reported as mg/100 gram of fresh tissue weight	Measurement		mg/100 g	numerical				
-BTO:0000781	Titratable acidity, 200 g	TA3	Total acidity	Titratable acidity of fruit	Plant	active	PostHarvest; Fruit Quality		Measurement of fruit acidity via titration	Fruit acidity determined via titration with a 200 g homogenated berry sample	Measurement		g/100 mL	numerical				
-BTO:0000796	Titratable acidity, NaOH	TA	Total acidity	Titratable acidity of juice	Plant	active	Beta_PostHarvest; Fruit quality; Fruit flavor		Measurement of fruit acidity via titration	Fruit juice acidity determined via titration with 0.1 N NaOH titrated to endpoint of pH 8.2	Measurement		g/100 mL	numerical				
-BTO:0000805	Titratable acidity, OSU	TA2	Total acidity	Titratable acidity of fruit	Plant	active	PostHarvest; Fruit Quality; Fruit flavor		Measurement of fruit acidity via titration	Fruit acidity determined via titration by the OSU Food Science Dept	Measurement		g/100 mL	numerical				
-BTO:0000810	Total acid content	TOTAC		Total acid content	Plant	active	Beta_PostHarvest		Total acid content	Total acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		mg/L	numerical				
-BTO:0000799	Total anthocyanin content, discrete analyzer	TAC2		Total anthocyanin	Plant	active	Beta_PostHarvest		Measurement of total anthocyanin extracted from fruit	Anthocyanin is extracted from berry juice and measured using a Gallery discrete analyzer according to manufacturer's instructions.	Measurement		mg/100 g of fresh weight	numerical				
-BTO:0000801	Total anthocyanin content, spectrophotometer	TAC		Total anthocyanin in fruit measured with a spectrophotometer	Plant	active	Anthocyanin content		Measurement of total anthocyanin extracted from fruit	Anthocyanin is extracted and measured using a spectophotometer. Referenced in Rodriguez-Saona and Wrolstad. 2001.  Unit F1.1: Anthocyanins.  Extraction, isolation, and purification of anthocyanins, p. 1-11. In R.E. Wrolstad(ed.). Current protocols in food analytical chemistry. John Wiley & Sons, New York.	Measurement		mg anthocyanin/100 g fruit	numerical				
-BTO:0000807	Total phenolics content	TPC	Total phenolics	Total phenolics content measured with a discrete analyzer	Plant	active	Beta_PostHarvest	Ebrahiem Babiker	Total phenolics content	Total phenolics content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions	Measurement		mg/L	numerical				
-BTO:0000783	True to type	TTT		Confirmation of cultivar identity based on pedigree analysis using molecular markers	Plant	active	Cultivar confirmation		Confirming cultivar identity with pedigree analysis	If offspring have alleles from parents they are true to type. Referenced in Bassil, N.V., Bidani, A., Nyberg, A., Hummer, K. and Rowland, L.J. (2020) Microsatellite markers confirm identity of blueberry (Vaccinium spp.) plants in the USDA-ARS National Clonal Germplasm Repository collection. Genet. Resour. Crop Evol. 67:393–409  https://doi.org/10.1007/s10722-019-00873-8	Measurement		yes/no	nominal				0=No;1=yes
-BTO:0000794	Uniform ripening	HVSP	Harvest spread	Span of harvest time	Plant	active	Harvest		Rating of uniform ripening of fruit on a scale of 1 to 9	Visual rating of uniform ripeness (harvest spread)	Estimation		span of harvest time	ordinal		1	9	1=long harvest spread (80% harvested in greater than 10 days);2=long harvest spread (70% harvested in greater than 10 days));3=moderately long harvest spread (60% harvested in greater than 10 days));4=above average harvest spread (50% harvested in greater than 10 days));5=average harvest spread (40% harvested in greater than 10 days));6=moderately short harvest spread (30% harvested in greater than 10 days);7=short harvest spread level 7 (20% harvested in greater than 10 days);8=short harvest spread level 7 (10% harvested in greater than 10 days);9=short harvest spread (80% of berries harvested in less than 10 days)
-BTO:0000788	Upright berries, count	BERRUPRGT		Numer of upright berries	Plant	active	Plant appearance		Number of upright berries	Numer of upright berries on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		count	numerical		0		
-BTO:0000784	Upright flowers, count	FLWRSUPRGT		Numer of upright flowers	Plant	active	Plant appearance		Number of upright flowers	Numer of upright flowers on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		count	numerical		0		
-BTO:0000791	White grubs 	WGR		Susceptible to white grubs 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of White grubs	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000804	Winter hardiness, buds	WHBUD		Measurement of damage from winter weather	Plant	active	Winter hardiness; Cold tolerance		Amount of winter damage on a scale of 1-10	Visual survey of winter damage to buds on scale of 1-10.  1 = all buds dead, 10= no damage. Referenced in Hancock, J.F., Erb, W.A., Goulart, B.L. and Scheerens, J.C. (1997). BLUEBERRY HYBRIDS WITH COMPLEX GENETIC BACKGROUNDS EVALUATED ON MINERAL SOILS: COLD HARDINESS AS INFLUENCED BY PARENTAL SPECIES AND LOCATION. Acta Hortic. 446, 389-396 DOI: 10.17660/ActaHortic.1997.446.57	Estimation		winter hardiness	ordinal		1	10	1=all buds destroyed on bush;2=90% buds destroyed;3=80% buds destroyed;4=70% buds destroyed;5=60% buds destroyed;6=50% buds destroyed;7=40% buds destroyed;8=30% buds destroyed;9=20% buds destroyed;10=no damage;
-BTO:0000808	Winter hardiness, wood	WHWOOD		Measurement of damage from winter weather	Plant	active	Winter hardiness; Cold tolerance		Amount of winter damage on a scale of 1-10	Visual survey of winter damage to wood (stems) on scale of 1-10.  1 = all dead, 10 = no damage. Referenced in Hancock, J.F., Erb, W.A., Goulart, B.L. and Scheerens, J.C. (1997). BLUEBERRY HYBRIDS WITH COMPLEX GENETIC BACKGROUNDS EVALUATED ON MINERAL SOILS: COLD HARDINESS AS INFLUENCED BY PARENTAL SPECIES AND LOCATION. Acta Hortic. 446, 389-396 DOI: 10.17660/ActaHortic.1997.446.57	Estimation		winter hardiness	ordinal		1	10	1=killed to the ground;2=90% killed to the ground;3=80% killed to the ground;4=70% killed to the ground;5=60% killed to the ground;6=50% killed to the ground;7=40% killed to the ground;8=30% killed to the ground;9=20% killed to the ground;10=no damage;
-BTO:0000782	Winter moth 	WINM		Susceptible to winter moth 	Plant	active	Insect resistance		Visual observation of insect presence	Visual observation of insect presence of Winter moth	Estimation		yes/no	nominal				0=No;1=yes
-BTO:0000816	Yield, per acre	YIELDACRE		Yield per acre	Plant	active	Fruit yield; Harvest		Measurement of yield per acre	Yield per acre as measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.	Measurement		yield/acre	numerical		0		
+
+format-version: 1.2
+date: 06:03:2023 17:10
+saved-by: Lukas
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: blueberry_trait
+ontology: BTO
+    
+[Term]
+id: BTO:0000000
+name: Blueberry Trait Ontology
+def: "a controlled vocabulary to describe blueberry traits"    
+    
+
+[Term]
+id: Trait number
+name: Trait name
+namespace: blueberry_trait    
+def: Trait description, Trait level, Trait lists, Method name, Method description
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Trait synonyms" EXACT []
+synonym: "Trait abbreviations" EXACT []
+
+[Term]
+id: BTO:0000673
+name: >75% blue/ripe fruit
+namespace: blueberry_trait    
+def: Timing of >75% blue/ripe fruit, Plant, Fruit development; Fruit mature rate, Day of year (Julian day) when plant reached >75% blue/ripe fruit (75Blue) stage (>50%), Day of year (Julian day) when plant reached >75% blue/ripe fruit (75Blue) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BRF" EXACT []
+
+[Term]
+id: BTO:0000688
+name: 5% ripe
+namespace: blueberry_trait    
+def: Number of days to 5% ripe, Plant, Fruit development; Fruit mature rate, Days to 5% ripe, Number of days from January 1 to 5% ripe
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "First ripe" EXACT []
+synonym: "5RP" EXACT []
+
+[Term]
+id: BTO:0000647
+name: 50% bloom
+namespace: blueberry_trait    
+def: Number of days to 50% bloom, Plant, Bloom; Plant development, Days to 50% bloom, Number of days from January 1st to 50% bloom
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "50B" EXACT []
+
+[Term]
+id: BTO:0000821
+name: 50% re-bloom
+namespace: blueberry_trait    
+def: Number of days to 50% re-bloom, Plant, Bloom; Plant development, Days to 50% re-bloom, Number of days from January 1st to 50% re-bloom
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "50% re-bloom" EXACT []
+synonym: "50RB" EXACT []
+
+[Term]
+id: BTO:0000676
+name: 50% ripe
+namespace: blueberry_trait    
+def: Number of days to 50% ripe, Plant, Fruit development; Fruit mature rate, Days to 50% ripe, Number of days from January 1 to 50% ripe
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "50% blue" EXACT []
+synonym: "50RP" EXACT []
+
+[Term]
+id: BTO:0000677
+name: 95% ripe
+namespace: blueberry_trait    
+def: Number of days to 95% ripe, Plant, Fruit development; Fruit mature rate, Days to 95% ripe, Number of days from January 1 to 95% ripe
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Full ripe, FullR" EXACT []
+synonym: "95RP" EXACT []
+
+[Term]
+id: BTO:0000650
+name: Algal stem blotch 
+namespace: blueberry_trait    
+def: Susceptible to algal stem blotch , Plant, Disease resistance; Stem, Visual observation of disease presence, Visual observation of disease presence of Algal stem blotch
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "ASTB" EXACT []
+
+[Term]
+id: BTO:0000681
+name: Alternaria fruit rot 
+namespace: blueberry_trait    
+def: Susceptible to alternaria fruit rot , Plant, Disease resistance; fruit, Visual observation of disease presence, Visual observation of disease presence of Alternaria fruit rot
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "ALFR" EXACT []
+
+[Term]
+id: BTO:0000667
+name: Anthracnose fruit rot 
+namespace: blueberry_trait    
+def: Susceptible to anthracnose fruit rot , Plant, Disease resistance; fruit, Visual observation of disease presence, Visual observation of disease presence of Anthracnose fruit rot
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "ANFR" EXACT []
+
+[Term]
+id: BTO:0000689
+name: Aphids 
+namespace: blueberry_trait    
+def: Susceptible to aphids , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Aphids
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "APH" EXACT []
+
+[Term]
+id: BTO:0000646
+name: Average fruit diameter, mm
+namespace: blueberry_trait    
+def: Average diameter of 30 fruits in mm, Plant, PostHarvest; fruit Quality, Average diameter of fruits, Average diameter (mm) of fruit calculated from 30 fruit samples using the Agrosta penetrometer with turntable according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRDIA2" EXACT []
+
+[Term]
+id: BTO:0000674
+name: Average fruit firmness, measured
+namespace: blueberry_trait    
+def: Firmness of fruit with Agrosta penetrometer, Plant, PostHarvest; fruit Quality, Measurement of fruit firmness with Agrosta penetrometer, Average fruit firmness measured from 30 berries with fixed pressure to measure displacement on an Agrosta penetrometer (with turntable) provided as value of force in g/mm.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRFRMMEAN" EXACT []
+
+[Term]
+id: BTO:0000683
+name: Average Pentration time
+namespace: blueberry_trait    
+def: Time elapsed for pentration, Plant, PostHarvest; fruit Quality, Average time needed to penetrate fruits, Average time needed under fixed pressure to pentrate (displacement probe) 30 berries on an Agrosta penetrometer (with turntable) provided as duration in milliseconds
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PENTMEAN" EXACT []
+
+[Term]
+id: BTO:0000679
+name: Bacterial blight/canker 
+namespace: blueberry_trait    
+def: Susceptible to bacterial blight/canker , Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Bacterial flight/canker
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BBC" EXACT []
+
+[Term]
+id: BTO:0000644
+name: Bacterial leaf scorch 
+namespace: blueberry_trait    
+def: Susceptible to bacterial leaf scorch , Plant, Disease resistance; leaf, Visual observation of disease presence, Visual observation of disease presence of Bacterial leaf scorch
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLS" EXACT []
+
+[Term]
+id: BTO:0000653
+name: Bloom color
+namespace: blueberry_trait    
+def: Color of flowers, Plant, Flower appearance, Observed color of blooms, Color of flowers recorded using available list
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BC" EXACT []
+
+[Term]
+id: BTO:0000654
+name: Bloom on fruit
+namespace: blueberry_trait    
+def: Amount of bloom (waxy, silvery-white substance on the surface) on fruit , Plant, Bloom; Plant development, Amount of bloom rated on a scale of 1 to 9, Visual survey of the amount of bloom on fruit. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLOOM" EXACT []
+
+[Term]
+id: BTO:0000684
+name: Bloom on fruit durability
+namespace: blueberry_trait    
+def: The durability of bloom (waxy, silvery-white substance on the surface) on fruit , Plant, Fruit appearance; Bloom, Durability of bloom rated on a scale of 1 to 9, Visual survey of the durability of bloom on fruit after fruit is touched
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLODUR" EXACT []
+
+[Term]
+id: BTO:0000658
+name: Blueberry maggot 
+namespace: blueberry_trait    
+def: Susceptible to blueberry maggot , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Blueberry maggot
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLMAG" EXACT []
+
+[Term]
+id: BTO:0000665
+name: Blueberry scorch virus 
+namespace: blueberry_trait    
+def: Susceptible to blueberry scorch virus , Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Blueberry scorch virus
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLSV" EXACT []
+
+[Term]
+id: BTO:0000657
+name: Blueberry Shock Virus Sensitivity
+namespace: blueberry_trait    
+def: ELISA test results for Blueberry Shock Virus, Plant, Disease resistance, Blueberry Shock Virus ELISA, Results of Blueberry shock virus tested by ELISA assay. Used in conjunction to derive Blueberry Shock Virus Years to Develop, BLSHV as Referenced in Finn, C.E., Mackey, T.A., Postman, J.D. and Martin, R.R. (2017). Identifying blueberry germplasm that is slow to get Blueberry shock virus in the Pacific Northwest United States. Acta Hortic. 1180, 423-430.  DOI: 10.17660/ActaHortic.2017.1180.59
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLSHVE" EXACT []
+
+[Term]
+id: BTO:0000682
+name: Blueberry Shock Virus Symptoms
+namespace: blueberry_trait    
+def: Presence of BSV symptoms in the field pre-harvest, Plant, Disease resistance, Blueberry Shock Virus presence, Visual evaluation of plants for BLSHV presence in the field prior to harvest
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BlShV" EXACT []
+synonym: "BLSHVP" EXACT []
+
+[Term]
+id: BTO:0000678
+name: Blueberry Shock Virus Years to Develop
+namespace: blueberry_trait    
+def: Number of years before the plant tests positive for Blueberry Shock Virus, Plant, Disease resistance, Blueberry Shock Virus timing, Number of years since planting that the plant tests positive for Blueberry shock virus by ELISA assay. Lower values means that the plant succumbs to the virus faster; higher values means that the plant does not test positive for the virus for a longer time. Ultimately categorized into <3 years - rapid to test positive, 3-5 years intermediate to test positive, 5-10 slow to test positive, >10 very slow to test positive. Referenced in Finn, C.E., Mackey, T.A., Postman, J.D. and Martin, R.R. (2017). Identifying blueberry germplasm that is slow to get Blueberry shock virus in the Pacific Northwest United States. Acta Hortic. 1180, 423-430.  DOI: 10.17660/ActaHortic.2017.1180.59
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLSHV" EXACT []
+
+[Term]
+id: BTO:0000685
+name: Blueberry stunt 
+namespace: blueberry_trait    
+def: Susceptible to blueberry stunt , Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Blueberry stunt 
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BLST" EXACT []
+
+[Term]
+id: BTO:0000651
+name: Brown marmorated stinkbug 
+namespace: blueberry_trait    
+def: Susceptible to brown marmorated stinkbug , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Brown marmorated stinkbug
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BMS" EXACT []
+
+[Term]
+id: BTO:0000652
+name: Bud mite 
+namespace: blueberry_trait    
+def: Susceptible to bud mite , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Bud mite
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BDMT" EXACT []
+
+[Term]
+id: BTO:0000656
+name: Bud set, count
+namespace: blueberry_trait    
+def: Number of buds per cane, Plant, Plant growth, Measurement of bud set (floral buds [clusters] / cane), Count number floral buds (clusters) on 3 random canes
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BS2" EXACT []
+
+[Term]
+id: BTO:0000669
+name: Bud set, scale
+namespace: blueberry_trait    
+def: Number of buds per cane, Plant, Plant growth, Rating of bud set on a scale of 1 to 3, Visual count of the number of buds per cane
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Budset" EXACT []
+synonym: "BS" EXACT []
+
+[Term]
+id: BTO:0000661
+name: Bud size
+namespace: blueberry_trait    
+def: Ratings of uniformity of flower bud size, Plant, Flower appearance, Uniformity of bud size, Visual survey of bud size on scale of 1 to 5. Referenced in Ehlenfeldt, M.K., Rowland, L.J., Ogden, E.L., Vinyard, B.T. 2007. Cold Hardiness of Vaccinium ashei, V. constablaei and Hybrid Flower Buds and the Potential for Producing Northern-Adapted Rabbiteye Cultivars. HortScience. 42:1131-1134.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BUDSZ" EXACT []
+
+[Term]
+id: BTO:0000649
+name: Bush size
+namespace: blueberry_trait    
+def: Size of bush in January, Plant, Plant growth, Computation of bush size based on height and width in January, height x width measurement cm^2
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BSZ" EXACT []
+
+[Term]
+id: BTO:0000670
+name: Caffeic acid content
+namespace: blueberry_trait    
+def: Caffeic acid content, Plant, Phytochemical content, Caffeic acid content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CAC" EXACT []
+
+[Term]
+id: BTO:0000642
+name: Calyx on/off
+namespace: blueberry_trait    
+def: Presence of calyx at time of harvest, Plant, Fruit appearance, Rating of calyx presence on a scale of 1 to 9, Visual rating of calyx on fruit at harvest (50% ripe)
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CALYX" EXACT []
+
+[Term]
+id: BTO:0000668
+name: Catechin content
+namespace: blueberry_trait    
+def: Catechin content, Plant, Phytochemical content, Catechin content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CC" EXACT []
+
+[Term]
+id: BTO:0000655
+name: Cherry fruit worm 
+namespace: blueberry_trait    
+def: Susceptible to cherry fruit worm , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Cherry fruit worm
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CFW" EXACT []
+
+[Term]
+id: BTO:0000648
+name: Chilling requirement
+namespace: blueberry_trait    
+def: Chill units for 50% budbreak, Plant, Chilling requirement, Chill unit measurement, Shoots with flower buds were collected every 200 chill units and buds were rated after 3 weeks at 24°C.  Budbreak rated on scale of 1-7.  Mean chilling requirements were calculated and used to determine number of chill units required for 50% budbreak. Referenced in Rowland LJ, et al., Mol Breed. 2014;34(4):2033–48.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CR" EXACT []
+
+[Term]
+id: BTO:0000672
+name: Chlorogenic acid content
+namespace: blueberry_trait    
+def: Chlorogenic acid content, Plant, Phytochemical content, Chlorogenic acid content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CHAC" EXACT []
+
+[Term]
+id: BTO:0000641
+name: Citric acid content
+namespace: blueberry_trait    
+def: Citric acid content, Plant, Beta_PostHarvest; Phytochemical content, Citric acid content, Citric acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CITAC" EXACT []
+
+[Term]
+id: BTO:0000645
+name: Cluster tightness, 1-3 scale
+namespace: blueberry_trait    
+def: Fruit cluster tightness between individual fruits, Plant, Fruit quality; Fruit cluster tightness, Rating of cluster tightness on scale of 1 to 3, Visual rating of cluster tightness
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CLUSTER2" EXACT []
+
+[Term]
+id: BTO:0000671
+name: Cluster tightness, 1-9 scale
+namespace: blueberry_trait    
+def: Fruit cluster tightness between individual fruits, Plant, Fruit quality; Fruit cluster tightness, Rating of cluster tightness on scale of 1 to 9, Visual rating of cluster tightness, released varities are usually a 4-6
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Clust" EXACT []
+synonym: "CLUSTER" EXACT []
+
+[Term]
+id: BTO:0000660
+name: Cold tolerance
+namespace: blueberry_trait    
+def: The temperature causing 50% bud injury (LT50), Plant, Cold tolerance, Percent of dead buds due to winter damage, Shoots from plants subjected to freeze-thaw protocol, distal buds assessed for damage and percent of damage calculated, measured as LT50 which is temperature that causes 50% injury overall. Referenced in Rowland LJ, Ogden EL, Bassil N, Buck EJ, McCallum S, Graham J, et al. Construction of a genetic linkage map of an interspecific diploid blueberry population and identification of QTL for chilling requirement and cold hardiness. Mol Breed. 2014;34(4):2033–48.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Cold hardiness" EXACT []
+synonym: "COLDTL" EXACT []
+
+[Term]
+id: BTO:0000666
+name: Core Collection
+namespace: blueberry_trait    
+def: Notation if line is included in core collection, Plant, Core collection, A flag to indicate the plant/accession is part of the core subset, A flag to indicate the plant/accession is part of the core subset
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CORE" EXACT []
+
+[Term]
+id: BTO:0000687
+name: Cranberry fruit worm 
+namespace: blueberry_trait    
+def: Susceptible to cranberry fruit worm , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Cranberry fruit worm
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CRFW" EXACT []
+
+[Term]
+id: BTO:0000664
+name: Cyanidin arabinoside content
+namespace: blueberry_trait    
+def: Cyanidin arabinoside content, Plant, Phytochemical content, Cyanidin arabinoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CYAC" EXACT []
+
+[Term]
+id: BTO:0000686
+name: Cyanidin galactoside content
+namespace: blueberry_trait    
+def: Cyanidin galactoside content, Plant, Phytochemical content, Cyanidin galactoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CYGAC" EXACT []
+
+[Term]
+id: BTO:0000659
+name: Cyanidin glucoside content
+namespace: blueberry_trait    
+def: Cyanidin glucoside content, Plant, Phytochemical content, Cyanidin glucoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CYGLC" EXACT []
+
+[Term]
+id: BTO:0000675
+name: Delphinidin arabinoside content
+namespace: blueberry_trait    
+def: Delphinidin arabinoside content, Plant, Phytochemical content, Delphinidin arabinoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "DAC" EXACT []
+
+[Term]
+id: BTO:0000680
+name: Delphinidin galactoside content
+namespace: blueberry_trait    
+def: Delphinidin galactoside content, Plant, Phytochemical content, Delphinidin galactoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "DGAC" EXACT []
+
+[Term]
+id: BTO:0000662
+name: Delphinidin glucoside content
+namespace: blueberry_trait    
+def: Delphinidin glucoside content, Plant, Phytochemical content, Delphinidin glucoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "DGLC" EXACT []
+
+[Term]
+id: BTO:0000643
+name: DNA Ratio
+namespace: blueberry_trait    
+def: Ratio of DNA to DNA in a standard plant, Plant, DNA ratio, Ratio of DNA to DNA in standard plant, Flow cytometry measurement of the ratio of the amoun tof sample DNA to the amount of DNA in a standard plant. Flow Cytometry determination using DAPI with internal standard = Vinca minor. Referenced in performed by Plant Cytometry Services, The Netherlands, 30 June 2012. This project was a collaborative effort from the USDA ARS and the University of Florida.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "DNARATIO" EXACT []
+
+[Term]
+id: BTO:0000663
+name: Early green fruit
+namespace: blueberry_trait    
+def: Timing of early green fruit, Plant, Fruit development, Day of year (Julian day) when plant reached Early Green fruit (EG) stage (>50%), Day of year (Julian day) when plant reached Early Green fruit (EG) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "EGF" EXACT []
+
+[Term]
+id: BTO:0000732
+name: Epi-catechin content
+namespace: blueberry_trait    
+def: Epi-catechin content, Plant, Phytochemical content, Epi-catechin content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "ECC" EXACT []
+
+[Term]
+id: BTO:0000733
+name: Ethnic group
+namespace: blueberry_trait    
+def: Name of Tribal Nation associated with accession, Plant, Ethnic group, A flag to indicate the name of the Tribal Nation associated with the accession, A flag to indicate the name of the Tribal Nation associated with the accession as Referenced in Pricilla Russell Kari from Athabascan Elders. Published by US National Park Service in 1995
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Ethnic-Group" EXACT []
+synonym: "ETGROUP" EXACT []
+
+[Term]
+id: BTO:0000708
+name: Exobasidium leaf and fruit spot 
+namespace: blueberry_trait    
+def: Susceptible to exobasidium leaf and fruit spot , Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Exobasidium leaf and fruit spot 
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "ELFS" EXACT []
+
+[Term]
+id: BTO:0000702
+name: Ferulic acid content
+namespace: blueberry_trait    
+def: Ferulic acid content, Plant, Phytochemical content, Ferulic acid content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FAC" EXACT []
+
+[Term]
+id: BTO:0000709
+name: First bloom
+namespace: blueberry_trait    
+def: Day of year (Julian day) when plant reached Early Bloom stage (<5%), Plant, Fruit development; Fruit mature rate, Day of year (Julian day) when plant reached Early Bloom stage (<5%), Day of year (Julian day) when plant reached Early Bloom stage (<5%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "First flower date, 1stFlw, FIRSTBLOOM" EXACT []
+synonym: "FIB" EXACT []
+
+[Term]
+id: BTO:0000724
+name: First ripe
+namespace: blueberry_trait    
+def: Day of year (Julian day) when first berry is ripe, Plant, Fruit development, Day of year (Julian day) when first berry is ripe, Day of year (Julian day) when first berry is ripe
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "1Ripe, FIRSTRIPE" EXACT []
+synonym: "FRP" EXACT []
+
+[Term]
+id: BTO:0000703
+name: Flavanol content
+namespace: blueberry_trait    
+def: Flavanol content, Plant, Beta_PostHarvest, Flavanol content, Flavanol content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FLAVONC" EXACT []
+
+[Term]
+id: BTO:0000701
+name: Flavonol content
+namespace: blueberry_trait    
+def: Flavonol content, Plant, Beta_PostHarvest, Flavonol content, Flavonol content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FLAVANC" EXACT []
+
+[Term]
+id: BTO:0000697
+name: Flower blight
+namespace: blueberry_trait    
+def: Death of blooms from BLSHV or Pseudomonas, Plant, Disease resistance; flower, Percent of flowers which have died due to disease, Percent of dead flowers
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FLBL" EXACT []
+
+[Term]
+id: BTO:0000691
+name: Flower thrips 
+namespace: blueberry_trait    
+def: Susceptible to flower thrips , Plant, Insect resistance; flower, Visual observation of insect presence, Visual observation of insect presence of Flower thrips
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FLTH" EXACT []
+
+[Term]
+id: BTO:0000738
+name: Frost damage
+namespace: blueberry_trait    
+def: Late frost damage assessed as percent of dead buds, Plant, Frost damage, Percent of dead buds due to frost damage, Percent of dead buds from frost damage
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRDMG" EXACT []
+
+[Term]
+id: BTO:0000712
+name: Fructose content
+namespace: blueberry_trait    
+def: Fructose content, Plant, Beta_PostHarvest, Fructose content, Fructose content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRUCC" EXACT []
+
+[Term]
+id: BTO:0000728
+name: Fruit appearance
+namespace: blueberry_trait    
+def: Attractiveness of fruit appearance, Plant, postHarvest; fruit Quality, Rating of fruit appearance on scale of 1 to 9, Visual rating of fruit appearance
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRAP" EXACT []
+
+[Term]
+id: BTO:0000726
+name: Fruit color
+namespace: blueberry_trait    
+def: Color of fruit rated on a scale of 1-9, Plant, postHarvest; fruit Quality, Color of fruit rated on a scale of 1 to 9, Visual survey of fruit color
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Post-harvest color" EXACT []
+synonym: "FRCL" EXACT []
+
+[Term]
+id: BTO:0000706
+name: Fruit color, wax removed
+namespace: blueberry_trait    
+def: Fruit color after wax removal, Plant, postHarvest; fruit Quality, Color of fruit when wax is rubbed off ratedon scale of 1 to 9, Visual survey of fruit color after wax is removed
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRCL2" EXACT []
+
+[Term]
+id: BTO:0000707
+name: Fruit crispness
+namespace: blueberry_trait    
+def: Texture of fruit, Plant, postHarvest; fruit Quality, Rating of fruit crispness/texture on a scale of 1 to 9, Characteristic of fruit when bite into
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Fruit texture" EXACT []
+synonym: "FRCR" EXACT []
+
+[Term]
+id: BTO:0000704
+name: Fruit decay
+namespace: blueberry_trait    
+def: Amount of fruit decay after storage, Plant, postHarvest; fruit Quality, Rating of fruit decay after storage on scale of 1 to 9, Visual rating of fruit decay
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRD" EXACT []
+
+[Term]
+id: BTO:0000693
+name: Fruit diameter, mm
+namespace: blueberry_trait    
+def: Average diameter of fruit in mm, Plant, Fruit quality; Fruit size, Average diameter of single fruit, Average diameter (mm) of  fruit calculated from 20 fruit sample according to Rowland, L.J., Ogden, E.L., and Vinyard, B.T. (2020) Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRDIA" EXACT []
+
+[Term]
+id: BTO:0000731
+name: Fruit ease of release
+namespace: blueberry_trait    
+def: Ease of picking or removing fruit from plant, Plant, Harvest, Rating of how easy fruit is removed from bush, Ease of fruit release measured at 50% ripe
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PkEase" EXACT []
+synonym: "FREASE" EXACT []
+
+[Term]
+id: BTO:0000713
+name: Fruit firmness, measured
+namespace: blueberry_trait    
+def: Firmness of fruit measurement, Plant, Fruit quality; fruit firmness, Measurement of fruit firmness via machine (penetrometer), Measurement of fruit firmness from 20 berries with a texture analyzer (TA.XT, Stable Micro Systems, Surrey, UK) according to Rowland, L.J., Ogden, E.L., and Vinyard, B.T. (2020) Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRFRM2" EXACT []
+
+[Term]
+id: BTO:0000692
+name: Fruit firmness, scale
+namespace: blueberry_trait    
+def: Firmness of fruit estimation, Plant, PostHarvest; fruit Quality, Rating of fruit firmness on a scale of 1 to 9, Rating of fruit firmness on a scale of 1 to 9 according to Rowland, L.J., Ogden, E.L., and Vinyard, B.T. (2020) Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Firm" EXACT []
+synonym: "FRFRM" EXACT []
+
+[Term]
+id: BTO:0000705
+name: Fruit flavor, 0-9 scale
+namespace: blueberry_trait    
+def: Rating of the fruit flavor, Plant, PostHarvest; fruit Quality, Rating of fruit flavor on a scale of 0 to 9, Tasting of fruit and application of a scale. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRF" EXACT []
+
+[Term]
+id: BTO:0000719
+name: Fruit flavor, 1-9 scale
+namespace: blueberry_trait    
+def: Rating of the fruit flavor, Plant, PostHarvest; fruit Quality, Rating of fruit flavor on a scale of 1 to 9, Tasting of fruit and application of a scale
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRF2" EXACT []
+
+[Term]
+id: BTO:0000717
+name: Fruit pH
+namespace: blueberry_trait    
+def: pH of juice from fruit, Plant, Beta_PostHarvest, pH of fruit juice, Measurement of pH in 5 g berry juice diluted with 45 mL water dectected with pH meter.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRPH" EXACT []
+
+[Term]
+id: BTO:0000723
+name: Fruit picking scar
+namespace: blueberry_trait    
+def: Size rating of picking scar on fruit, Plant, Harvest; Fruit quality, Rating of picking scar on scale of 1 to 9, Visual rating of picking scar on fruit according to Finn, C.E. & Luby, J.J. (1992) J of Am Soc of Hort Sci, 117, (4) 617-621
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Scar" EXACT []
+synonym: "FRSC" EXACT []
+
+[Term]
+id: BTO:0000690
+name: Fruit rot susceptibility
+namespace: blueberry_trait    
+def: Susceptibility to anthracnose fruit rot, Plant, Disease resistance; fruit, Percent of rotted fruit , Green fruit on potted plants was inoculated and maintained plants until fruit ripened. Ripe fruit was incubated under humid conditions for approximately 1 week. Percentage rotted fruit was determined.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRROT" EXACT []
+
+[Term]
+id: BTO:0000694
+name: Fruit rot, percent
+namespace: blueberry_trait    
+def: Percent of fruit rot, Plant, Disease resistance; fruit, Percent of fruit rot, Percent of fruit rot on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PERCENTROT" EXACT []
+synonym: "PFRROT" EXACT []
+
+[Term]
+id: BTO:0000696
+name: Fruit set, percent
+namespace: blueberry_trait    
+def: Percent fruit set, Plant, Yield; Harvest, Percent fruit set, Percent of fruit set on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FSP" EXACT []
+
+[Term]
+id: BTO:0000730
+name: Fruit size
+namespace: blueberry_trait    
+def: Fruit size rated on a scale, Plant, PostHarvest; Fruit Quality, Rating of fruit size on scale of 1 to 9, Visual rating of overall fruit size
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Size" EXACT []
+synonym: "FRSZ" EXACT []
+
+[Term]
+id: BTO:0000739
+name: Fruit size, number per cup
+namespace: blueberry_trait    
+def: Fruit size number of berries per cup, Plant, Fruit quality; Fruit size, Count of numer of berries per cup, Count of number of berries per cup measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "CUPCOUNT" EXACT []
+synonym: "FRSZ2" EXACT []
+
+[Term]
+id: BTO:0000716
+name: Fruit split after wetting
+namespace: blueberry_trait    
+def: Percent of fruit that split after setting in water, Plant, Fruit quality; Fruit size, Percent of fruit that split from water, Percent of berries that were split after submersion in water for 14 hr. Referenced in Marshall et al. (2007). Laboratory method to estimate rain-induced splitting in cultivated blueberries. HortScience 42(7):1551–1553.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRSP" EXACT []
+
+[Term]
+id: BTO:0000720
+name: Fruit texture
+namespace: blueberry_trait    
+def: Texture of mature fruit, Plant, PostHarvest; Fruit Quality, Rating of mature fruit texture on scale of 1-9, Survey of fruit texture on a scale 
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FT" EXACT []
+
+[Term]
+id: BTO:0000725
+name: Fruit UV damage
+namespace: blueberry_trait    
+def: Amount of UV damage on fruit, Plant, PostHarvest; Fruit Quality, Amount of UV damage on scale of 1 to 9, Visual rating of UV damage on fruit
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRUV" EXACT []
+
+[Term]
+id: BTO:0000722
+name: Fruit weight, 25 fruit sample
+namespace: blueberry_trait    
+def: Average weight of fruit, Plant, Fruit quality; Fruit weight, Average weight of single fruit, Average weight (g) of one fruit calculated from 25 fruit sample. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FWT" EXACT []
+
+[Term]
+id: BTO:0000714
+name: Fruit weight, 30 fruit sample
+namespace: blueberry_trait    
+def: Average weight of fruit, Plant, Fruit quality; Fruit weight, Average weight of single fruit, Average weight (g) of one fruit calculated from 30 fruit sample
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FWT2" EXACT []
+
+[Term]
+id: BTO:0000734
+name: Fruit yield, 1-9 scale
+namespace: blueberry_trait    
+def: Fruit yield rated on a scale, Plant, PostHarvest; Fruit yield, Rating of yield on a scale of 1 to 9, Visual rating of fruit yield
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "YLD" EXACT []
+
+[Term]
+id: BTO:0000715
+name: Fruit yield, weight
+namespace: blueberry_trait    
+def: Average weight of fruit yield per plant, Plant, PostHarvest; Fruit yield, Measurement of yield per plant, Fruit weight (kg) per plant, average of 4 plants/genotype
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "YLDW" EXACT []
+
+[Term]
+id: BTO:0000737
+name: Full bloom
+namespace: blueberry_trait    
+def: Day of year (Julian day) when plant reached Full Bloom stage (>80%), Plant, Fruit development, Day of year (Julian day) when plant reached Full Bloom stage (>50%), Day of year (Julian day) when plant reached Full Bloom stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FullBl" EXACT []
+synonym: "FUB" EXACT []
+
+[Term]
+id: BTO:0000710
+name: Gall midge
+namespace: blueberry_trait    
+def: Susceptible to gall midge, Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Gall midge
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "GALL" EXACT []
+
+[Term]
+id: BTO:0000711
+name: Glucose content
+namespace: blueberry_trait    
+def: Glucose content, Plant, Beta_PostHarvest; Sugar content; Discrete Analyzer, Glucose content, Glucose content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "GLUCC" EXACT []
+
+[Term]
+id: BTO:0000698
+name: Green fruit drop
+namespace: blueberry_trait    
+def: Loss of green fruit at beginning of season before ripening, Plant, Fruit yield; Fruit drop, Visual observation of loss of green fruit early in season, Visual observation of loss of green fruit early in season
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Draper drop" EXACT []
+synonym: "GFRD" EXACT []
+
+[Term]
+id: BTO:0000695
+name: Growth habit
+namespace: blueberry_trait    
+def: Upright or sprawling or narrow growth habit, Plant, Plant growth, Rating of plant growth habit on a scale of 1 to 9, Visual rating of plant growth habit
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "GRH" EXACT []
+
+[Term]
+id: BTO:0000735
+name: Kaempferol glucoside content
+namespace: blueberry_trait    
+def: Kaempferol-7-O-glucoside content, Plant, Phytochemical content, Kaempferol glucoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "KGC" EXACT []
+
+[Term]
+id: BTO:0000736
+name: Late green fruit
+namespace: blueberry_trait    
+def: Timing of late green fruit, Plant, Fruit development, Day of year (Julian day) when plant reached Late Green fruit (LG) stage (>50%), Day of year (Julian day) when plant reached Late Green fruit (LG) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "LGF" EXACT []
+
+[Term]
+id: BTO:0000699
+name: Leaf color
+namespace: blueberry_trait    
+def: Color of leaves in fall, Plant, Plant appearance, Observed color of leaves in autumn, Color of leaves during autumn weather
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "LC" EXACT []
+
+[Term]
+id: BTO:0000729
+name: Leaf coverage
+namespace: blueberry_trait    
+def: Density of leaves in plant canopy, Plant, Plant appearance, Subjective rating or describe density of leaves in plant canopy, Scale of 1 - 9, where 9 is the greatest 
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "LFD" EXACT []
+
+[Term]
+id: BTO:0000727
+name: Leaf rust resistance
+namespace: blueberry_trait    
+def: Reaction to leaves to leaf rust inoculation, Plant, Disease resistance; leaf, Reaction to leaf rust on scale of 0 to 4, Four weeks after inoculation, four to six leaves were inspected and the disease reactions were rated. Referenced in Babiker et al. (2018) HortScience 53(10):1447–1452. Reaction of different Vaccinium species to the blueberry leaf rust pathogen Thekopsora minima
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "LRR" EXACT []
+
+[Term]
+id: BTO:0000700
+name: Leaf to bloom ratio
+namespace: blueberry_trait    
+def: Order of bloom and leaf emergence in January, Plant, Plant growth, Leaf to bloom ratio, Visual observation of the order of appearance of first leaf and first bloom in January
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "LBR" EXACT []
+
+[Term]
+id: BTO:0000718
+name: Leafhopper resistance
+namespace: blueberry_trait    
+def: Resistance to Scaphytopius magdalensis, Plant, Biotic resistance; pest resistance, Testing of leafhopper resistance in controlled conditions, Leafhopper growth index values were calculated.  Highly susceptible had values close to 25 and resistant had an index value of zero. Referenced in Meyer, J. R. and J. R. Ballington. 1990. Resistance of Vaccinium spp. to the leafhopper Scaphytopius magdalensis (Homoptera: Cicadellidae). Ann. Entomol. Soc. Am. 83: 515-520.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "LHR" EXACT []
+
+[Term]
+id: BTO:0000721
+name: Malic acid content
+namespace: blueberry_trait    
+def: Malic acid content, Plant, Beta_PostHarvest, Malic acid content, Malic acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MALAC" EXACT []
+
+[Term]
+id: BTO:0000770
+name: Malvidin arabinoside content
+namespace: blueberry_trait    
+def: Malvidin arabinoside content, Plant, Phytochemical content, Malvidin arabinoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MAC" EXACT []
+
+[Term]
+id: BTO:0000750
+name: Malvidin galactoside content
+namespace: blueberry_trait    
+def: Malvidin galactoside content, Plant, Phytochemical content, Malvidin galactoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MGAC" EXACT []
+
+[Term]
+id: BTO:0000751
+name: Malvidin glucoside content
+namespace: blueberry_trait    
+def: Malvidin glucoside content, Plant, Phytochemical content, Malvidin glucoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MGLC" EXACT []
+
+[Term]
+id: BTO:0000760
+name: Mineral soil adaptation index
+namespace: blueberry_trait    
+def: Index calculated from vegetative vigor, yield, and nutrient deficiency, Plant, Phytochemical content, Plant growth and yield due to soil, A mineral soil adaptation index (0 – 10) for each genotype was calculated as follows: mineral soil adaptation score = Ʃ mean ratings for vegetative vigor, yield balance  and nutrient deficiency symptoms divided by 5. This index was used in conjunction with growth and fruiting data to evaluate genotypic response to the mineral soil environment.  Individuals displaying indices > or = 7.5 exhibited mineral soil adaptation. Referenced in Scheerens, J.C., Erb, W.A., Goulart, B.L., and Hancock, J.F. (1999a). Blueberry hybrids with complex genetic backgrounds evaluated on mineral soils: stature, growth rate, yield potential and adaptability to mineral soil conditions as influenced by parental species. Fruit Var. J. 53, 73–90.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MINSOIL" EXACT []
+
+[Term]
+id: BTO:0000747
+name: Monopodial stem 
+namespace: blueberry_trait    
+def: Monopodial growth habit, Plant, Plant growth, Observation if plant has monopodial growth habit, Observation if plant has monopodial growth habit
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MONO" EXACT []
+
+[Term]
+id: BTO:0000744
+name: Mummy berry blight susceptibility
+namespace: blueberry_trait    
+def: Percent of shoots with mummy berry blight, Plant, Disease resistance, Percent of shoots with blight, Number of blighted and non-blighted shoots were counted and used to calculate percent with blight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MBBL" EXACT []
+
+[Term]
+id: BTO:0000741
+name: Mummy berry fruit rot susceptibility
+namespace: blueberry_trait    
+def: Percent of fruit with mummy berry rot, Plant, Disease resistance, Percent of fruit with rot, Number of rotted and non-rotted fruit were counted and used to calculate percent with blight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MBFR" EXACT []
+
+[Term]
+id: BTO:0000777
+name: Myricetin glucoside content
+namespace: blueberry_trait    
+def: Myricetin 3-glucoside content, Plant, Phytochemical content, Myricetin glucoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "MGC" EXACT []
+
+[Term]
+id: BTO:0000742
+name: Necrotic ring blotch virus 
+namespace: blueberry_trait    
+def: Susceptible to necrotic ring blotch virus , Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Necrotic ring blotch virus 
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "NRBV" EXACT []
+
+[Term]
+id: BTO:0000745
+name: Nematodes 
+namespace: blueberry_trait    
+def: Susceptible to nematodes , Plant, Nematode resistance, Visual observation of disease presence, Visual observation of disease presence of Nematodes
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "NEM" EXACT []
+
+[Term]
+id: BTO:0000756
+name: Number of fruit
+namespace: blueberry_trait    
+def: Number of fruit harvested from in vivo pollinations, Plant, Fruit yield; Harvest, Number of fruit harvested from in vivo pollinations, Number of pollinated fruit/total number in vivo pollinations
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "NFR" EXACT []
+
+[Term]
+id: BTO:0000767
+name: Peonidin arabinoside content
+namespace: blueberry_trait    
+def: Peonidin arabinoside content, Plant, Phytochemical content, Peonidin arabinoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PAC" EXACT []
+
+[Term]
+id: BTO:0000761
+name: Peonidin galactoside content
+namespace: blueberry_trait    
+def: Peonidin galactoside content, Plant, Phytochemical content, Peonidin galactoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PGAC" EXACT []
+
+[Term]
+id: BTO:0000755
+name: Peonidin glucoside content
+namespace: blueberry_trait    
+def: Peonidin glucoside content, Plant, Phytochemical content, Peonidin glucoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PGLC" EXACT []
+
+[Term]
+id: BTO:0000771
+name: Petal fall
+namespace: blueberry_trait    
+def: Timing of petal fall, Plant, Fruit development, Day of year (Julian day) when plant reached Petal Fall (PF) stage (>50%), Day of year (Julian day) when plant reached Petal Fall (PF) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PF" EXACT []
+
+[Term]
+id: BTO:0000776
+name: Petunidin arabinoside content
+namespace: blueberry_trait    
+def: Petunidin arabinoside content, Plant, Phytochemical content, Petunidin arabinoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PEAC" EXACT []
+
+[Term]
+id: BTO:0000778
+name: Petunidin galactoside content
+namespace: blueberry_trait    
+def: Petunidin galactoside content, Plant, Phytochemical content, Petunidin galactoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PEGAC" EXACT []
+
+[Term]
+id: BTO:0000759
+name: Petunidin glucoside content 
+namespace: blueberry_trait    
+def: Petunidin glucoside content , Plant, Phytochemical content, Petunidin glucoside content , Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PEGLC" EXACT []
+
+[Term]
+id: BTO:0000758
+name: Phenolic acid content
+namespace: blueberry_trait    
+def: Phenolic acid content, Plant, Beta_PostHarvest; Phytochemical content, Phenolic acid content, Phenolic acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PHENAC" EXACT []
+
+[Term]
+id: BTO:0000757
+name: Phomopsis twig blight 
+namespace: blueberry_trait    
+def: Susceptible to phomopsis twig blight , Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Phomopsis twig blight 
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PHTB" EXACT []
+
+[Term]
+id: BTO:0000740
+name: Phytophthora root rot 
+namespace: blueberry_trait    
+def: Susceptible to phytophthora root rot , Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Phytophthora root rot
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PRR" EXACT []
+
+[Term]
+id: BTO:0000753
+name: Plant growth, upright cm
+namespace: blueberry_trait    
+def: The growth of plant upright in cm, Plant, Plant vigor, Measurement of plant growth upright in centimeters, Measurement of plant upright growth in centimeters as referenced in VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PLGRC" EXACT []
+
+[Term]
+id: BTO:0000762
+name: Plant height
+namespace: blueberry_trait    
+def: Plant height measured in centimeters, Plant, Plant vigor, Measurement of plant height in centimeters, Measurement of plant height in centimeters in January
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PLHGT" EXACT []
+
+[Term]
+id: BTO:0000772
+name: Plant vigor, 1-3 scale
+namespace: blueberry_trait    
+def: The vigor of the plant, Plant, Plant vigor, Rating of plant vigor on a scale of 1 to 3, Visual rating of plant vigour
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "VIG2" EXACT []
+
+[Term]
+id: BTO:0000743
+name: Plant vigor, 1-9 scale
+namespace: blueberry_trait    
+def: The vigor of the plant, Plant, Plant vigor, Rating of plant vigor on a scale of 1 to 9, Visual rating of plant vigour
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "VIG" EXACT []
+
+[Term]
+id: BTO:0000765
+name: Plant vigor, Computation
+namespace: blueberry_trait    
+def: The vigor of the plant based on measurements, Plant, Plant vigor, Computation of bush size based on height and width at end of summer, height x width measurement cm^2
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "VIG3" EXACT []
+
+[Term]
+id: BTO:0000766
+name: Plant width
+namespace: blueberry_trait    
+def: Plant width measured in centimeters, Plant, Plant vigor, Measurement of plant width in centimeters, Measurement of plant width in centimeters in January
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PLWTH" EXACT []
+
+[Term]
+id: BTO:0000779
+name: Ploidy
+namespace: blueberry_trait    
+def: Number of sets of chromosomes, Plant, Ploidy, Determination of ploidy, Nuclei are measured with a flow cytometer to determine dosage of haploid number. Referenced in Hummer, K.E., N.V. Bassil, H.P. Rodríguez Armenta, and J.W.Olmstead, 2015. Vaccinium Species Ploidy Assessment. Acta Hortic. 1101:199-204. DOI 10.17660/ActaHortic.2015.1101.30
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PLOIDY" EXACT []
+
+[Term]
+id: BTO:0000775
+name: Ploidy Equation
+namespace: blueberry_trait    
+def: Ploidy equation expressing sets of chromosomes, Plant, Ploidy, Equation of the ploidy of the plant, Equation of the ploidy of the plant. Example 2n = 2x = YY
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PLOIDYEQUA" EXACT []
+
+[Term]
+id: BTO:0000754
+name: Plum curculio 
+namespace: blueberry_trait    
+def: Susceptible to plum curculio , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Plum curculio
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PC" EXACT []
+
+[Term]
+id: BTO:0000748
+name: Pollen germination rate
+namespace: blueberry_trait    
+def: Pollen germination rate, Plant, Pollen germination, Measurement of pollen germination rate, Measurement of pollen germination rate, tube length and tube number as referenced in Gan, Zhang, Bostan, Devetter, 2020 Pollen performance
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "POLGR" EXACT []
+
+[Term]
+id: BTO:0000764
+name: Pollination rate
+namespace: blueberry_trait    
+def: Number of flowers that were successfully pollinated from in vivo pollinations, Plant, Pollination rate, Number of successful flower pollinations from in vivo pollinations, Number of pollinated flowers/total number in vivo pollinations
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "POLR" EXACT []
+
+[Term]
+id: BTO:0000746
+name: Procyanidin-B1 content
+namespace: blueberry_trait    
+def: Procyanidin-B1 content, Plant, Phytochemical content, Procyanidin-B1 content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PB1C" EXACT []
+
+[Term]
+id: BTO:0000752
+name: Procyanidin-B2 content
+namespace: blueberry_trait    
+def: Procyanidin-B2 content, Plant, Phytochemical content, Procyanidin-B2 content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "PB2C" EXACT []
+
+[Term]
+id: BTO:0000769
+name: Quercetin arabinoside content
+namespace: blueberry_trait    
+def: Quercetin-arabinoside and/or pentoside content, Plant, Phytochemical content, Quercetin arabinoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "QAC" EXACT []
+
+[Term]
+id: BTO:0000773
+name: Quercetin galactoside content
+namespace: blueberry_trait    
+def: Quercetin 3-D-galactoside and/or glucoside content, Plant, Phytochemical content, Quercetin galactoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "QGC" EXACT []
+
+[Term]
+id: BTO:0000763
+name: Quercetin rutinoside content
+namespace: blueberry_trait    
+def: Quercetin-3-Rutinoside content, Plant, Phytochemical content, Quercetin rutinoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "QRC" EXACT []
+
+[Term]
+id: BTO:0000749
+name: Repeat Bloom, percent
+namespace: blueberry_trait    
+def: Percent repeat bloom, Plant, Plant growth; Bloom rate, Percent of repeat bloom, Percent of repeat bloom on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "REPEATBLM" EXACT []
+
+[Term]
+id: BTO:0000768
+name: Retention of firmness (on bush)
+namespace: blueberry_trait    
+def: Retention of fruit firmness while on bush, Plant, Fruit firmness; Fruit quality, Observation of fruit firmness when left on bush, Observation of fruit firmness when left on bush
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRFRMB" EXACT []
+
+[Term]
+id: BTO:0000774
+name: Retention of flavor (on bush) 
+namespace: blueberry_trait    
+def: Retention of fruit flavr while on bush, Plant, Fruit flavor, Observation of fruit flavor when left on bush, Observation of fruit flavor when left on bush
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FRFB" EXACT []
+
+[Term]
+id: BTO:0000802
+name: Ripening time
+namespace: blueberry_trait    
+def: Days until 50% ripe, Plant, Fruit development, Number of days until maturity, Number of days from January 1 to 50% ripe
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "RPT" EXACT []
+
+[Term]
+id: BTO:0000798
+name: Scale insects 
+namespace: blueberry_trait    
+def: Susceptible to scale insects , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Scale insects
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SCALE" EXACT []
+
+[Term]
+id: BTO:0000818
+name: Seed count
+namespace: blueberry_trait    
+def: Average seed count per fruit, Plant, Fruit quality; PostHarvest quality, Number of seeds per fruit, Average number of seeds per fruit
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SDN" EXACT []
+
+[Term]
+id: BTO:0000797
+name: Self-fertility
+namespace: blueberry_trait    
+def: Self-fertility of cultivar, Plant, Self-fertility, Effectiveness of self-pollination, Cross with self-pollen or bulk-pollen at least 50 flowers/cross, record number of flowers pollinated, fruit harvested, fruit weight, seed count/fruit and compare self-pollinated with bulk-pollinated
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SELF" EXACT []
+
+[Term]
+id: BTO:0000792
+name: Sharp-nosed leafhopper
+namespace: blueberry_trait    
+def: Susceptible to sharp-nosed leafhopper, Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Sharp-nosed leafhopper
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SNL" EXACT []
+
+[Term]
+id: BTO:0000806
+name: Shoot expansion
+namespace: blueberry_trait    
+def: Timing of shoot expansion, Plant, Plant growth, Day of year (Julian day) when plant reached Shoot Expansion (SE) stage (>50%), Day of year (Julian day) when plant reached Shoot Expansion (SE) stage (>50%). Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SHEXP" EXACT []
+
+[Term]
+id: BTO:0000789
+name: Soluble Solids
+namespace: blueberry_trait    
+def: Total sugar content, Plant, Beta_PostHarvest; Sugar content, Brix reading from fruit, Sugar content in berry juice from a 10-berry sample at 50% ripe stage measured with refractometer as percent of dissolved solids (brix).
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SS2" EXACT []
+
+[Term]
+id: BTO:0000819
+name: Soluble solids, 200 g 
+namespace: blueberry_trait    
+def: Measure of sugar content by measuring percent of dissolved solids (brix), Plant, Sugar content, Brix reading from fruit, Measured from juice from a 200 g homogenated berry sample with a refractometer
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SS3" EXACT []
+
+[Term]
+id: BTO:0000809
+name: Soluble solids, 4 reps, 5 berries
+namespace: blueberry_trait    
+def: Measure of sugar content by measuring percent of dissolved solids (brix), Plant, Sugar content, Brix reading from fruit, Measured from juice from berries.  Result is average of 4 reps of 5 berries per genotype. Referenced in Rowland, L.J., Ogden, E.L., and Vinyard, B.T. 2020. Phenotypic evaluation of a hybrid diploid blueberry population for plant development and fruit quality traits. Agronomy 10, 1067; doi:10.3390/agronomy10081067
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SS" EXACT []
+
+[Term]
+id: BTO:0000800
+name: Soluble solids, OSU
+namespace: blueberry_trait    
+def: Measure of sugar content by measuring percent of dissolved solids (brix), Plant, Sugar content, Brix reading from fruit, Measured from juice from a berry sample
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SS5" EXACT []
+
+[Term]
+id: BTO:0000785
+name: Soluble solids, percent
+namespace: blueberry_trait    
+def: Percent soluble solids, Plant, Soluble solids, Percent soluble solids, Referenced in Sampson et al. 2020 SWD antibiosis
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SSP" EXACT []
+
+[Term]
+id: BTO:0000820
+name: Spotted-wing Drosophila adult mortality
+namespace: blueberry_trait    
+def: SWD adult mortality percent, Plant, Insect resistance; Drosophila resistance, Spotted-wing Drosophila adult mortality percentage, Spotted-wing drosphila adult mortality percent calculated as in Reference Sampson et al. 2020 SWD antibiosis
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWDAMP" EXACT []
+
+[Term]
+id: BTO:0000813
+name: Spotted-wing Drosophila larvae per fruit
+namespace: blueberry_trait    
+def: SWD larvae per fruit, Plant, Insect resistance; Drosophila resistance, Spotted-wing Drosophila larvae per fruit, Spotted-wing drosphila average larvae per fruit calculated as in Reference Sampson et al. 2020 SWD antibiosis
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWDLPF" EXACT []
+
+[Term]
+id: BTO:0000812
+name: Spotted-wing Drosophila reproductive rate
+namespace: blueberry_trait    
+def: SWD reproductive rate, Plant, Insect resistance; Drosophila resistance, Spotted-wing Drosophila reproductive rate, Spotted-wing drosphila reproductive rate calculated as in Reference Sampson et al. 2020 SWD antibiosis
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWDRR" EXACT []
+
+[Term]
+id: BTO:0000790
+name: Spotted-wing Drosophila resistance
+namespace: blueberry_trait    
+def: SWD resistance (antibiosis) of fruit, Plant, Insect resistance; Drosophila resistance, Rating of berry resistance to SWD feeding on a scale of 1 to 5, A resistance index was calculated as the sum of the number of fly reproductive parameters not significant (indicated by **) from the host (Vaccinium) standard)) + 1 (for significance from non-host standard) or +2 (for non-significance from non-host standard). The minimal resistance value is 1, the maximum is 5. Referenced in Blair Sampson, and Stephen Stringer, Kim Hummer, Ebrahiem Babiker, Chris Werle, and Donna Marshall-Shaw 2020. (submitted for publication 2020)
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWD" EXACT []
+
+[Term]
+id: BTO:0000815
+name: Spotted-wing Drosophila resistance index
+namespace: blueberry_trait    
+def: SWD resistance index, Plant, Insect resistance; Drosophila resistance, Spotted-wing Drosophila resistance index, Spotted-wing drosphila resistance index calculated as in Reference Sampson et al. 2020 SWD antibiosis. Resistance Index = (sum of the non-significant reproductive parmeters (indicated by **) compared with Vaccinium standard) + 1 (for significance from non-host standard) or +2 (for non-significance from non-host standard) min = 1, max = 5
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWDRI" EXACT []
+
+[Term]
+id: BTO:0000795
+name: Spotted-wing Drosophila resistance, oviposition success index count
+namespace: blueberry_trait    
+def: SWD resistance, oviposition success index count, Plant, Insect resistance; Drosophila resistance, Spotted-wing Drosophila resistance, oviposition success index count, One hundred berries were sampled from each of the 88 rabbiteye and southern highbush cultivars and selections and examined for the presence or absence of SWD feeding damage or egg laying. Referenced in Stringer, S.J., Sampson, B.J. and Hummer, K.E. (2017). Screening small fruit germplasm for resistance to southern populations of invasive spotted wing drosophila, SWD (Diptera: Drosophilidae). Acta Hortic. (ISHS) 1180:45-52 https://doi.org/10.17660/ActaHortic.2017.1180.7
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWDOSIC" EXACT []
+
+[Term]
+id: BTO:0000803
+name: Spotted-wing Drosophila resistance, oviposition success index scale
+namespace: blueberry_trait    
+def: SWD resistance, oviposition success index scale, Plant, Insect resistance; Drosophila resistance, Spotted-wing Drosophila resistance, oviposition success index scale, One hundred berries were sampled from each of the 88 rabbiteye and southern highbush cultivars and selections and examined for the presence or absence of SWD feeding damage or egg laying, translated to show non-preference or susceptibility based on counts. Referenced in Stringer, S.J., Sampson, B.J. and Hummer, K.E. (2017). Screening small fruit germplasm for resistance to southern populations of invasive spotted wing drosophila, SWD (Diptera: Drosophilidae). Acta Hortic. (ISHS) 1180:45-52 https://doi.org/10.17660/ActaHortic.2017.1180.7
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWDOSIS" EXACT []
+
+[Term]
+id: BTO:0000786
+name: Spotted-wing Drosophila viable eggs per fruit
+namespace: blueberry_trait    
+def: SWD viable eggs per fruit, Plant, Insect resistance; Drosophila resistance, Spotted-wing Drosophila viable eggs per fruit, Spotted-wing drosphila viable eggs per fruit calculated as in Reference Sampson et al. 2020 SWD antibiosis
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SWDVEPF" EXACT []
+
+[Term]
+id: BTO:0000817
+name: Stem blight susceptibility
+namespace: blueberry_trait    
+def: Fungal lesion size compared to control, Plant, Disease resistance, Stem lesion size compared to susceptible control, Measurement and comparison of stem lesions on susceptible cultivar in a detached stem assay with fungal inoculations. Referenced in Smith, B.J. 2009. Botryosphaeria stem blight of southern blueberries: Cultivar susceptibility and effect of chemical treatments. Acta Hort.810:385–394
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "STBL" EXACT []
+
+[Term]
+id: BTO:0000780
+name: Stem borers 
+namespace: blueberry_trait    
+def: Susceptible to stem borers , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Stem borers
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "STB" EXACT []
+
+[Term]
+id: BTO:0000793
+name: Stem canker
+namespace: blueberry_trait    
+def: Susceptible to stem canker, Plant, Disease resistance, Visual observation of disease presence, Visual observation of disease presence of Stem canker
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "STCA" EXACT []
+
+[Term]
+id: BTO:0000787
+name: Stem gall wasp 
+namespace: blueberry_trait    
+def: Susceptible to stem gall wasp , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Stem gall wasp
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "STGW" EXACT []
+
+[Term]
+id: BTO:0000811
+name: Sucrose content
+namespace: blueberry_trait    
+def: Sucrose content , Plant, Beta_PostHarvest; Sugar content; Discrete Analyzer, Sucrose content, Sucrose content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "SUCC" EXACT []
+
+[Term]
+id: BTO:0000814
+name: Syrengitin glucoside content
+namespace: blueberry_trait    
+def: Syringetin 3-glucoside content, Plant, Phytochemical content, Syrengitin glucoside content, Measured with HPLC, reported as mg/100 gram of fresh tissue weight
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "AGC" EXACT []
+
+[Term]
+id: BTO:0000781
+name: Titratable acidity, 200 g
+namespace: blueberry_trait    
+def: Titratable acidity of fruit, Plant, PostHarvest; Fruit Quality, Measurement of fruit acidity via titration, Fruit acidity determined via titration with a 200 g homogenated berry sample
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Total acidity" EXACT []
+synonym: "TA3" EXACT []
+
+[Term]
+id: BTO:0000796
+name: Titratable acidity, NaOH
+namespace: blueberry_trait    
+def: Titratable acidity of juice, Plant, Beta_PostHarvest; Fruit quality; Fruit flavor, Measurement of fruit acidity via titration, Fruit juice acidity determined via titration with 0.1 N NaOH titrated to endpoint of pH 8.2
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Total acidity" EXACT []
+synonym: "TA" EXACT []
+
+[Term]
+id: BTO:0000805
+name: Titratable acidity, OSU
+namespace: blueberry_trait    
+def: Titratable acidity of fruit, Plant, PostHarvest; Fruit Quality; Fruit flavor, Measurement of fruit acidity via titration, Fruit acidity determined via titration by the OSU Food Science Dept
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Total acidity" EXACT []
+synonym: "TA2" EXACT []
+
+[Term]
+id: BTO:0000810
+name: Total acid content
+namespace: blueberry_trait    
+def: Total acid content, Plant, Beta_PostHarvest, Total acid content, Total acid content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "TOTAC" EXACT []
+
+[Term]
+id: BTO:0000799
+name: Total anthocyanin content, discrete analyzer
+namespace: blueberry_trait    
+def: Total anthocyanin, Plant, Beta_PostHarvest, Measurement of total anthocyanin extracted from fruit, Anthocyanin is extracted from berry juice and measured using a Gallery discrete analyzer according to manufacturer's instructions.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "TAC2" EXACT []
+
+[Term]
+id: BTO:0000801
+name: Total anthocyanin content, spectrophotometer
+namespace: blueberry_trait    
+def: Total anthocyanin in fruit measured with a spectrophotometer, Plant, Anthocyanin content, Measurement of total anthocyanin extracted from fruit, Anthocyanin is extracted and measured using a spectophotometer. Referenced in Rodriguez-Saona and Wrolstad. 2001.  Unit F1.1: Anthocyanins.  Extraction, isolation, and purification of anthocyanins, p. 1-11. In R.E. Wrolstad(ed.). Current protocols in food analytical chemistry. John Wiley & Sons, New York.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "TAC" EXACT []
+
+[Term]
+id: BTO:0000807
+name: Total phenolics content
+namespace: blueberry_trait    
+def: Total phenolics content measured with a discrete analyzer, Plant, Beta_PostHarvest, Total phenolics content, Total phenolics content in berry juice measured with a Gallery discrete analyzer according to manufacturer's instructions
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Total phenolics" EXACT []
+synonym: "TPC" EXACT []
+
+[Term]
+id: BTO:0000783
+name: True to type
+namespace: blueberry_trait    
+def: Confirmation of cultivar identity based on pedigree analysis using molecular markers, Plant, Cultivar confirmation, Confirming cultivar identity with pedigree analysis, If offspring have alleles from parents they are true to type. Referenced in Bassil, N.V., Bidani, A., Nyberg, A., Hummer, K. and Rowland, L.J. (2020) Microsatellite markers confirm identity of blueberry (Vaccinium spp.) plants in the USDA-ARS National Clonal Germplasm Repository collection. Genet. Resour. Crop Evol. 67:393–409  https://doi.org/10.1007/s10722-019-00873-8
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "TTT" EXACT []
+
+[Term]
+id: BTO:0000794
+name: Uniform ripening
+namespace: blueberry_trait    
+def: Span of harvest time, Plant, Harvest, Rating of uniform ripening of fruit on a scale of 1 to 9, Visual rating of uniform ripeness (harvest spread)
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "Harvest spread" EXACT []
+synonym: "HVSP" EXACT []
+
+[Term]
+id: BTO:0000788
+name: Upright berries, count
+namespace: blueberry_trait    
+def: Numer of upright berries, Plant, Plant appearance, Number of upright berries, Numer of upright berries on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "BERRUPRGT" EXACT []
+
+[Term]
+id: BTO:0000784
+name: Upright flowers, count
+namespace: blueberry_trait    
+def: Numer of upright flowers, Plant, Plant appearance, Number of upright flowers, Numer of upright flowers on the plant measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "FLWRSUPRGT" EXACT []
+
+[Term]
+id: BTO:0000791
+name: White grubs 
+namespace: blueberry_trait    
+def: Susceptible to white grubs , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of White grubs
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "WGR" EXACT []
+
+[Term]
+id: BTO:0000804
+name: Winter hardiness, buds
+namespace: blueberry_trait    
+def: Measurement of damage from winter weather, Plant, Winter hardiness; Cold tolerance, Amount of winter damage on a scale of 1-10, Visual survey of winter damage to buds on scale of 1-10.  1 = all buds dead, 10= no damage. Referenced in Hancock, J.F., Erb, W.A., Goulart, B.L. and Scheerens, J.C. (1997). BLUEBERRY HYBRIDS WITH COMPLEX GENETIC BACKGROUNDS EVALUATED ON MINERAL SOILS: COLD HARDINESS AS INFLUENCED BY PARENTAL SPECIES AND LOCATION. Acta Hortic. 446, 389-396 DOI: 10.17660/ActaHortic.1997.446.57
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "WHBUD" EXACT []
+
+[Term]
+id: BTO:0000808
+name: Winter hardiness, wood
+namespace: blueberry_trait    
+def: Measurement of damage from winter weather, Plant, Winter hardiness; Cold tolerance, Amount of winter damage on a scale of 1-10, Visual survey of winter damage to wood (stems) on scale of 1-10.  1 = all dead, 10 = no damage. Referenced in Hancock, J.F., Erb, W.A., Goulart, B.L. and Scheerens, J.C. (1997). BLUEBERRY HYBRIDS WITH COMPLEX GENETIC BACKGROUNDS EVALUATED ON MINERAL SOILS: COLD HARDINESS AS INFLUENCED BY PARENTAL SPECIES AND LOCATION. Acta Hortic. 446, 389-396 DOI: 10.17660/ActaHortic.1997.446.57
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "WHWOOD" EXACT []
+
+[Term]
+id: BTO:0000782
+name: Winter moth 
+namespace: blueberry_trait    
+def: Susceptible to winter moth , Plant, Insect resistance, Visual observation of insect presence, Visual observation of insect presence of Winter moth
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "WINM" EXACT []
+
+[Term]
+id: BTO:0000816
+name: Yield, per acre
+namespace: blueberry_trait    
+def: Yield per acre, Plant, Fruit yield; Harvest, Measurement of yield per acre, Yield per acre as measured according to VACCINIUM.MADISON.88, Cranberry Cultivar Evaluation, 1988 Experiment Type: Field FIELD Study Year: 1988 Exp.
+relationship: variable_of BTO:0000000 ! Blueberry Trait Ontology
+synonym: "YIELDACRE" EXACT []
